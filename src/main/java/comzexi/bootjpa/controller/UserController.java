@@ -5,47 +5,31 @@ import comzexi.bootjpa.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 @Controller
 public class UserController {
     @Autowired
     UserRepository userRepository;
 
-    @RequestMapping("/toHello")
-    public String toHello(ModelMap modelMap) {
-        User u = new User();
-        u.setUsername("pt");
-        u.setPassword("123456");
-        u.setPhone("15771007335");
-        userRepository.save(u);
-        List<User> users = userRepository.findAll();
-        modelMap.put("users", users);
-        return "helloBoot";
-    }
-
     @RequestMapping("toAdd")
     @ResponseBody
-    public Map<String ,Object> toAdd(User user) {
-        Map<String ,Object> map=new HashMap<String ,Object>();
+    public Map<String, Object> toAdd(User user) {
+        Map<String, Object> map = new HashMap<String, Object>();
         Example<User> example = Example.of(user);
         if (userRepository.exists(example)) {
             //已存在用户
-            map.put("result","error");
+            map.put("result", "error");
         } else {
             userRepository.save(user);
-            map.put("result","success");
+            map.put("result", "success");
         }
-        return  map;
+        return map;
     }
 
 
@@ -61,16 +45,16 @@ public class UserController {
 
     @RequestMapping("todenglu")
     @ResponseBody
-    public Map<String ,Object> denglu(User user, HttpSession session) {
-        Map<String ,Object> map=new HashMap<String ,Object>();
+    public Map<String, Object> denglu(User user, HttpSession session) {
+        Map<String, Object> map = new HashMap<String, Object>();
         User byUser = userRepository.findByUser(user.getPhone(), user.getPassword());
-        if (byUser!=null) {
+        if (byUser != null) {
             session.setAttribute("user", user);
-            map.put("result","success");
+            map.put("result", "success");
         } else {
-            map.put("result","error");
+            map.put("result", "error");
         }
-        return  map;
+        return map;
     }
 
     @RequestMapping("/dd")
@@ -84,27 +68,32 @@ public class UserController {
     }
 
     @RequestMapping("/remen")
-    public String  remen(){
+    public String remen() {
         return "remen";
     }
+
     @RequestMapping("/yxff")
-    public String  yxff(){
+    public String yxff() {
         return "yxff";
     }
+
     @RequestMapping("/yxjy")
-    public String  yxjy(){
+    public String yxjy() {
         return "yxjy";
     }
+
     @RequestMapping("/seo")
-    public String  seo(){
+    public String seo() {
         return "seo";
     }
+
     @RequestMapping("/about")
-    public String  about(){
+    public String about() {
         return "about";
     }
+
     @RequestMapping("/zhifu")
-    public String  zhifu(){
+    public String zhifu() {
         return "zhifu";
     }
 }
