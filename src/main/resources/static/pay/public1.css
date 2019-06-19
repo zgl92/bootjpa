@@ -1,0 +1,1008 @@
+﻿blockquote,body,button,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,label,li,ol,p,pre,select,td,textarea,th,ul{margin:0 auto;padding:0;font-family:Tahoma,\5fae\8f6f\96c5\9ed1,Helvetica,arial}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:400}
+ol,ul{list-style:none;vertical-align:middle}
+li{vertical-align:middle}
+caption,th{text-align:left}
+img a{border:0}
+.cl{clear:both;height:1px;overflow:hidden;margin-top:-1px}
+.fixed:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.fixed{zoom:1}
+html{background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/162c50749db94e059243b97997a606f3.gif")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/162c50749db94e059243b97997a606f3.gif*/;background-attachment:fixed}
+_html{filter:expression(document.execCommand("BackgroundImageCache",false,true))}
+:focus{outline:0}
+textarea{resize:none}
+a{cursor:pointer;text-decoration:none;color:#237db2}
+a:hover{text-decoration:underline}
+a:hover *{text-decoration:underline}
+.gradient{filter:none\9\0}
+.line{width:1px;display:inline-block;overflow:hidden}
+.ad_gray_button .an,.minian_drop_menu .an{background:#888;border-color:#888;color:#fff;box-shadow:none}
+.ad_gray_button .an .start_icon_16,.minian_drop_menu .an .start_icon_16{background-position:-164px -32px}
+.ad_gray_button .an:hover,.minian_drop_menu .an:hover{background:#797979}
+.ad_gray_button .arrow_box,.minian_drop_menu .arrow_box{background:#888;border-color:#888;border-left-color:#9a9a9a;box-shadow:none}
+.ad_gray_button .b_arrow,.minian_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#fff transparent transparent}
+.ad_orange_button .an,.hot_gamelist .an_drop_menu .an,.hot_gamelist .minian_drop_menu .an{background:#ff5d13;border-color:#ff5d13;color:#fff;box-shadow:none}
+.ad_orange_button .an .start_icon_16,.hot_gamelist .an_drop_menu .an .start_icon_16,.hot_gamelist .minian_drop_menu .an .start_icon_16{background-position:-164px -32px}
+.ad_orange_button .an:hover,.hot_gamelist .an_drop_menu .an:hover,.hot_gamelist .minian_drop_menu .an:hover{background:#f04e04}
+.ad_orange_button .arrow_box,.hot_gamelist .an_drop_menu .arrow_box,.hot_gamelist .minian_drop_menu .arrow_box{background:#ff5d13;border-color:#ff5d13;border-left-color:#ff8f45;box-shadow:none}
+.ad_orange_button .b_arrow,.hot_gamelist .an_drop_menu .b_arrow,.hot_gamelist .minian_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#fff transparent transparent}
+.ad_blue_button .an,.good_gamelist .an_drop_menu .an,.good_gamelist .minian_drop_menu .an{background:#3098d5;border-color:#3098d5;color:#fff;box-shadow:none}
+.ad_blue_button .an .start_icon_16,.good_gamelist .an_drop_menu .an .start_icon_16,.good_gamelist .minian_drop_menu .an .start_icon_16{background-position:-164px -32px}
+.ad_blue_button .an:hover,.good_gamelist .an_drop_menu .an:hover,.good_gamelist .minian_drop_menu .an:hover{background:#2189c6}
+.ad_blue_button .arrow_box,.good_gamelist .an_drop_menu .arrow_box,.good_gamelist .minian_drop_menu .arrow_box{background:#3098d5;border-color:#3098d5;border-left-color:#4eb6f3;box-shadow:none}
+.ad_blue_button .b_arrow,.good_gamelist .an_drop_menu .b_arrow,.good_gamelist .minian_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#fff transparent transparent}
+.ad_white_button,.an_drop_menu{background:#f1f1f1;border-color:#c9c9c9;color:#565656}
+.ad_white_button .an,.an_drop_menu .an{color:#565656;border-color:#c9c9c9;background:#f1f1f1;box-shadow:-1px -1px 0 #fff inset,0 5px 30px #fff inset}
+.ad_white_button .an .start_icon_16,.an_drop_menu .an .start_icon_16{background-position:-113px 0}
+.ad_white_button .an:hover,.an_drop_menu .an:hover{background:#fff}
+.ad_white_button .arrow_box,.an_drop_menu .arrow_box{background:#f1f1f1;border-color:#c9c9c9;border-left-color:#d3d3d3;box-shadow:-1px -1px 0 #fff inset,0 5px 30px #fff inset}
+.ad_white_button .b_arrow,.an_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#565656 transparent transparent}
+.button_a,.gray_button,.minibutton_a{background:#888;border-color:#888;color:#fff;box-shadow:none}
+.button_a:hover,.gray_button:hover,.minibutton_a:hover{background:#797979}
+.orange_button{background:#ff5d13;border-color:#ff5d13;color:#fff;box-shadow:none}
+.orange_button:hover{background:#f04e04}
+.blue_button,.slide_radio dt{background:#3098d5;border-color:#3098d5;color:#fff;box-shadow:none}
+.blue_button:hover,.slide_radio dt:hover{background:#2189c6}
+.green_button{background:#72b947;border-color:#72b947;color:#fff;box-shadow:none}
+.green_button:hover{background:#63aa38}
+.uploadify,.white_button{color:#565656;border-color:#c9c9c9;background:#f1f1f1;box-shadow:-1px -1px 0 #fff inset,0 5px 30px #fff inset}
+.uploadify:hover,.white_button:hover{background:#fff}
+.txt_button{color:#0066a3;border-color:transparent;background:0 0;box-shadow:none}
+.txt_button:hover{background:0 0;text-decoration:underline}
+.button_disable{background:#f1f1f1;color:#b5b5b5;border-color:#ddd;cursor:default;box-shadow:none}
+.button_disable:hover{background:#f1f1f1}
+.line{width:1px;display:inline-block;overflow:hidden}
+.ad_gray_button .an,.minian_drop_menu .an{background:#888;border-color:#888;color:#fff;box-shadow:none}
+.ad_gray_button .an .start_icon_16,.minian_drop_menu .an .start_icon_16{background-position:-164px -32px}
+.ad_gray_button .an:hover,.minian_drop_menu .an:hover{background:#797979}
+.ad_gray_button .arrow_box,.minian_drop_menu .arrow_box{background:#888;border-color:#888;border-left-color:#9a9a9a;box-shadow:none}
+.ad_gray_button .b_arrow,.minian_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#fff transparent transparent}
+.ad_orange_button .an,.hot_gamelist .an_drop_menu .an,.hot_gamelist .minian_drop_menu .an{background:#ff5d13;border-color:#ff5d13;color:#fff;box-shadow:none}
+.ad_orange_button .an .start_icon_16,.hot_gamelist .an_drop_menu .an .start_icon_16,.hot_gamelist .minian_drop_menu .an .start_icon_16{background-position:-164px -32px}
+.ad_orange_button .an:hover,.hot_gamelist .an_drop_menu .an:hover,.hot_gamelist .minian_drop_menu .an:hover{background:#f04e04}
+.ad_orange_button .arrow_box,.hot_gamelist .an_drop_menu .arrow_box,.hot_gamelist .minian_drop_menu .arrow_box{background:#ff5d13;border-color:#ff5d13;border-left-color:#ff8f45;box-shadow:none}
+.ad_orange_button .b_arrow,.hot_gamelist .an_drop_menu .b_arrow,.hot_gamelist .minian_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#fff transparent transparent}
+.ad_blue_button .an,.good_gamelist .an_drop_menu .an,.good_gamelist .minian_drop_menu .an{background:#3098d5;border-color:#3098d5;color:#fff;box-shadow:none}
+.ad_blue_button .an .start_icon_16,.good_gamelist .an_drop_menu .an .start_icon_16,.good_gamelist .minian_drop_menu .an .start_icon_16{background-position:-164px -32px}
+.ad_blue_button .an:hover,.good_gamelist .an_drop_menu .an:hover,.good_gamelist .minian_drop_menu .an:hover{background:#2189c6}
+.ad_blue_button .arrow_box,.good_gamelist .an_drop_menu .arrow_box,.good_gamelist .minian_drop_menu .arrow_box{background:#3098d5;border-color:#3098d5;border-left-color:#4eb6f3;box-shadow:none}
+.ad_blue_button .b_arrow,.good_gamelist .an_drop_menu .b_arrow,.good_gamelist .minian_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#fff transparent transparent}
+.ad_white_button,.an_drop_menu{background:#f1f1f1;border-color:#c9c9c9;color:#565656}
+.ad_white_button .an,.an_drop_menu .an{color:#565656;border-color:#c9c9c9;background:#f1f1f1;box-shadow:-1px -1px 0 #fff inset,0 5px 30px #fff inset}
+.ad_white_button .an .start_icon_16,.an_drop_menu .an .start_icon_16{background-position:-113px 0}
+.ad_white_button .an:hover,.an_drop_menu .an:hover{background:#fff}
+.ad_white_button .arrow_box,.an_drop_menu .arrow_box{background:#f1f1f1;border-color:#c9c9c9;border-left-color:#d3d3d3;box-shadow:-1px -1px 0 #fff inset,0 5px 30px #fff inset}
+.ad_white_button .b_arrow,.an_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#565656 transparent transparent}
+.button_a,.gray_button,.minibutton_a{background:#888;border-color:#888;color:#fff;box-shadow:none}
+.button_a:hover,.gray_button:hover,.minibutton_a:hover{background:#797979}
+.orange_button{background:#ff5d13;border-color:#ff5d13;color:#fff;box-shadow:none}
+.orange_button:hover{background:#f04e04}
+.blue_button,.slide_radio dt{background:#3098d5;border-color:#3098d5;color:#fff;box-shadow:none}
+.blue_button:hover,.slide_radio dt:hover{background:#2189c6}
+.green_button{background:#72b947;border-color:#72b947;color:#fff;box-shadow:none}
+.green_button:hover{background:#63aa38}
+.uploadify,.white_button{color:#565656;border-color:#c9c9c9;background:#f1f1f1;box-shadow:-1px -1px 0 #fff inset,0 5px 30px #fff inset}
+.uploadify:hover,.white_button:hover{background:#fff}
+.txt_button{color:#0066a3;border-color:transparent;background:0 0;box-shadow:none}
+.txt_button:hover{background:0 0;text-decoration:underline}
+.button_disable{background:#f1f1f1;color:#b5b5b5;border-color:#ddd;cursor:default;box-shadow:none}
+.button_disable:hover{background:#f1f1f1}
+.fui_radio{background-position:-16px 0}
+.fui_radio_checked{background-position:0 0}
+.fui_checkbox{background-position:-48px -22px}
+.fui_checkbox_checked{background-position:-64px -22px}
+.icon16{width:16px;height:16px;display:inline-block;vertical-align:middle;overflow:hidden}
+.icon48{width:48px;height:48px;display:inline-block;vertical-align:middle;overflow:hidden}
+.fui_form .hidden{width:0;height:0;overflow:hidden;position:relative;margin-left:-999px}
+.tr_tn{width:90px;color:#565656;text-align:right;height:32px;line-height:32px;padding-right:8px;float:left}
+.deltr_button{width:30px;height:30px;float:left;overflow:hidden;border:1px #c9c9c9 solid;background:#f1f1f1;margin-right:12px}
+.deltr_button:hover{background:#e7e7e7}
+.deltr_button .icon16{margin:7px}
+.major_txt{height:32px;line-height:32px;font-size:18px;margin-right:6px;float:left}
+.third_namebox{height:32px;line-height:32px;padding:0 10px 0 24px;position:relative;float:left}
+.third_namebox .icon16{position:absolute;left:4px;top:8px}
+.txt_block01{width:448px;border:1px #e2e2e2 solid;background-color:#fbfbfb;padding:10px;line-height:180%;float:left}
+.txt_block01 li{list-style:disc inside}
+.pop_content .txt_block01{width:210px}
+.slide_radio{height:30px;line-height:30px;border:1px #e2e2e2 solid;border-radius:2px;margin-right:12px;position:relative;z-index:1;float:left}
+.slide_radio dt{height:30px;position:absolute;top:0;border-width:1px;border-style:solid;margin:-1px 0 0 -1px;border-radius:2px;z-index:2}
+.slide_radio dd{padding:0 20px;position:relative;z-index:3;cursor:pointer;float:left}
+.slide_radio .current{color:#fff}
+.txt_form .major_txt,.txt_form .r_formtip,.txt_form .tr_tn{height:20px;line-height:20px}
+.input_txt{overflow:hidden}
+.input_w1{width:100px}
+.input_w2{width:150px}
+.input_w3{width:200px}
+.input_w4{width:250px}
+.input_w5{width:300px}
+.input_w6{width:350px}
+.form_list{padding-bottom:20px;color:#565656}
+.form_list .input_txt{margin-right:12px}
+.form_list .input_tip{height:32px;line-height:32px}
+.form_list .select_a{height:32px;line-height:32px;padding:5px;color:#363636;border:1px #c9c9c9 solid;margin-right:12px;float:left}
+.form_list .tr_txt{height:32px;line-height:32px;float:left}
+.form_list .checkbox_a,.form_list .radio_a{height:32px;line-height:32px}
+.form_list .fui_checkbox,.form_list .fui_radio{margin:8px 5px 8px 0}
+.form_list .img_code{width:100px;height:32px;overflow:hidden;margin-right:12px;float:left}
+.form_list .img_code img{width:100px;height:32px}
+.fsbbox_list{padding-top:21px;padding-bottom:20px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ repeat-x;margin-top:4px;color:#a6a6a6}
+.fsbbox_list .button_a{height:38px;line-height:38px}
+.fsbbox_list .button_a .icon16{margin:11px 5px 11px 0}
+.submit_box .button_a{height:48px;line-height:48px;padding:0 20px}
+.input_txt{height:20px;line-height:20px;padding:5px;font-size:12px;color:#565656;border:1px #c9c9c9 solid;float:left}
+.textarea_txt{padding:5px;font-size:12px;line-height:180%;color:#565656;border:1px #c9c9c9 solid;float:left}
+.t_size1{width:318px;height:70px}
+input[type=password],input[type=text],textarea{box-shadow:3px 3px 5px rgba(0,0,0,.06) inset}
+input[type=password]:focus,input[type=text]:focus,select:focus,textarea:focus{border-color:#76c4f2;color:#3098d5;box-shadow:0 0 10px rgba(96,205,205,.5)}
+input[type=password]:focus,input[type=text]:focus{font-weight:700}
+button[type=submit],input[type=submit]{cursor:pointer}
+button{cursor:pointer}
+.checkbox_a,.radio_a{margin-right:5px;float:left}
+.checkbox_a,.radio_a{margin-right:5px;float:left}
+.option_box{padding-bottom:15px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;margin-right:12px;float:left}
+.option_box .option_list{overflow:hidden;display:inline;float:left}
+.option_box .option_label{float:none}
+.option_label{height:32px;line-height:32px;padding-right:40px;cursor:pointer;float:left}
+.option_box_parent{float:left}
+.validform_tip{height:32px;line-height:32px;float:left}
+.validform_tip .icon16{margin:8px 4px 8px 0;display:none;float:left}
+.validform_tip a{padding:0 4px}
+.validform_error{color:#ff4a4e;background-color:#fff4f8;border-color:#ff868a}
+.tip_error{color:#ff4a4e}
+.tip_error .icon16{display:block;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png*/;background-position:-16px -22px}
+.validform_success{color:#77be4c;background-color:#fffff6;border-color:#77be4c}
+.tip_success{color:#77be4c}
+.tip_success .icon16{display:block;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png*/;background-position:-32px -22px}
+.b_formtip{color:#565656;height:20px;line-height:20px;padding-top:8px;white-space:nowrap;clear:both;display:inline;float:left}
+.b_formtip .icon16{margin:2px 4px 2px 0}
+.b_formtip .record{padding:0 4px}
+.r_formtip{height:32px;line-height:32px}
+.r_formtip .striking{color:#ff5d13}
+.r_formtip a{margin:0 5px}
+.text_tr .tr_tn{height:14px;line-height:14px}
+.text_tr .r_formtip{height:14px;line-height:14px}
+.form_section{padding-bottom:11px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;margin-bottom:30px}
+.tenpay_iframe{width:488px;height:266px;overflow:hidden;margin-bottom:10px;padding-right:10px;border:1px #ddd solid}
+.tenpay_iframe body{background:red}
+.fui_radio{width:16px;height:16px;display:block;overflow:hidden;float:left;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png*/}
+.fui_checkbox{width:16px;height:16px;display:block;overflow:hidden;float:left;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png*/}
+.fui_select{height:30px;line-height:30px;color:#363636;border:1px #c9c9c9 solid;padding-right:22px;margin-right:12px;cursor:pointer;position:relative;float:left}
+.fui_select .name{color:#565656;padding:0 8px;float:left}
+.fui_select .name:hover{text-decoration:none}
+.fui_select .r_arrowbox{width:21px;height:18px;margin:6px 0;float:left;border-left:1px #c9c9c9 solid;overflow:hidden;position:absolute;right:0;top:0}
+.fui_select .b_arrow{position:absolute;right:7px;top:8px}
+.fui_select_box{max-height:300px;color:#565656;position:absolute;background:#fff;border:1px #c9c9c9 solid;top:30px;box-shadow:10px 10px 20px rgba(0,0,0,.14);overflow-x:hidden;overflow-y:auto;padding-bottom:10px;left:-1px;z-index:999}
+.fui_select_box li{white-space:nowrap;float:left;clear:both;margin-right:-969px;height:30px;line-height:30px;padding-bottom:1px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;display:block;padding:0 999px 0 8px;cursor:pointer;cursor:pointer}
+.fui_select_box li:hover{background-color:#f6f6f6}
+.fui_select_box .hover{background-color:#f1f1f1}
+.fui_select_box .current{background-color:#f1f1f1}
+.input_box{position:relative;float:left}
+.input_box .input_tip{position:absolute;color:#979797;left:0;top:0;cursor:text}
+.input_box .date_16{position:absolute;right:18px;top:50%;margin-top:-8px;filter:alpha(opacity=30);opacity:.3}
+.focus_box .input_tip{color:#c9c9c9}
+.big_form .r_formtip,.big_form .tr_tn{height:40px;line-height:40px}
+.big_form .fui_select{height:38px;line-height:38px;padding-right:30px}
+.big_form .fui_select .r_arrowbox,.big_form .fui_select .r_arrowbox_fix{width:26px;margin:10px 0}
+.big_form .fui_select .b_arrow{right:9px}
+.big_form .slide_radio{height:38px;line-height:38px}
+.big_form .slide_radio dt{height:38px}
+.big_form .input_txt{height:28px;line-height:28px}
+.big_form .input_tip{height:40px;line-height:40px}
+.big_form .button_a{height:38px;line-height:38px}
+.big_form .icon16{margin:12px 4px 12px 0}
+.big_form .img_code{height:40px}
+.big_form .img_code img{height:40px}
+.fui_intensify{width:520px;background:0;padding:0 0 0 1px;margin:0}
+.fui_intensify .fui_radio{width:22px;height:22px;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png*/;background-position:-32px 0;position:absolute;right:0;bottom:0;margin:0;display:none}
+.fui_intensify .option_label{cursor:pointer;position:absolute;left:0;top:0;z-index:1}
+.fui_intensify .option_list{overflow:visible;width:116px;height:40px;border:1px #c9c9c9 solid;margin:0 0 -1px -1px;position:relative;z-index:1}
+.fui_intensify .option_list .option_label{padding:0 10px;width:96px;background-color:#fff;height:40px;line-height:40px;display:block}
+.fui_intensify .custom_box{position:relative}
+.fui_intensify .custom_box .option_label{background:#f1f1f1}
+.fui_intensify .custom_box .custom_val{width:60px;height:18px;line-height:18px;margin:5px 0 0 5px;display:inline;position:relative;z-index:2;float:left}
+.fui_intensify .custom_box .custom_unit{height:40px;line-height:40px;padding-left:8px;position:relative;z-index:2;float:left}
+.fui_intensify .custom_box .input_tip{position:absolute;height:32px;line-height:32px;left:4px;top:4px;z-index:2}
+.fui_intensify .fui_checked_box{z-index:2}
+.fui_intensify .fui_checked_box .fui_radio{display:block;z-index:3}
+.fui_intensify .fui_checked_box .option_label{border:2px #77be4c solid;padding:0 9px;height:38px;line-height:38px;left:-1px;top:-1px}
+.fui_intensify .reselect_menu_box{height:40px;line-height:40px;padding-left:10px;float:left;display:none}
+.bank_box .option_list{width:155px}
+.bank_box .option_list .option_label{width:135px}
+.bank_logo{background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/bank-s9af0a84818.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/bank-s9af0a84818.png*/}
+.bank_abc{background-position:0 0}
+.fui_checked_box .bank_abc{background-position:-1px -1px}
+.bank_bea{background-position:0 -80px}
+.fui_checked_box .bank_bea{background-position:-1px -81px}
+.bank_bjrcb{background-position:0 -120px}
+.fui_checked_box .bank_bjrcb{background-position:-1px -121px}
+.bank_bob{background-position:0 -160px}
+.fui_checked_box .bank_bob{background-position:-1px -161px}
+.bank_boc{background-position:0 -200px}
+.fui_checked_box .bank_boc{background-position:-1px -201px}
+.bank_bcom{background-position:0 -40px}
+.fui_checked_box .bank_bcom{background-position:-1px -41px}
+.bank_cbhb{background-position:0 -240px}
+.fui_checked_box .bank_cbhb{background-position:-1px -241px}
+.bank_ccb{background-position:0 -280px}
+.fui_checked_box .bank_ccb{background-position:-1px -281px}
+.bank_ceb{background-position:0 -320px}
+.fui_checked_box .bank_ceb{background-position:-1px -321px}
+.bank_cib{background-position:0 -360px}
+.fui_checked_box .bank_cib{background-position:-1px -361px}
+.bank_citic{background-position:0 -400px}
+.fui_checked_box .bank_citic{background-position:-1px -401px}
+.bank_cmb{background-position:0 -440px}
+.fui_checked_box .bank_cmb{background-position:-1px -441px}
+.bank_cmbc{background-position:0 -480px}
+.fui_checked_box .bank_cmbc{background-position:-1px -481px}
+.bank_czb{background-position:0 -520px}
+.fui_checked_box .bank_czb{background-position:-1px -521px}
+.bank_fdb{background-position:0 -560px}
+.fui_checked_box .bank_fdb{background-position:-1px -561px}
+.bank_gdb{background-position:0 -600px}
+.fui_checked_box .bank_gdb{background-position:-1px -601px}
+.bank_gzcb{background-position:0 -640px}
+.fui_checked_box .bank_gzcb{background-position:-1px -641px}
+.bank_hsb{background-position:0 -680px}
+.fui_checked_box .bank_hsb{background-position:-1px -681px}
+.bank_hxb{background-position:0 -720px}
+.fui_checked_box .bank_hxb{background-position:-1px -721px}
+.bank_hzb{background-position:0 -760px}
+.fui_checked_box .bank_hzb{background-position:-1px -761px}
+.bank_icbc{background-position:0 -800px}
+.fui_checked_box .bank_icbc{background-position:-1px -801px}
+.bank_nbcb{background-position:0 -840px}
+.fui_checked_box .bank_nbcb{background-position:-1px -841px}
+.bank_njcb{background-position:0 -880px}
+.fui_checked_box .bank_njcb{background-position:-1px -881px}
+.bank_pab{background-position:0 -920px}
+.fui_checked_box .bank_pab{background-position:-1px -921px}
+.bank_post{background-position:0 -960px}
+.fui_checked_box .bank_post{background-position:-1px -961px}
+.bank_sdb{background-position:0 -1000px}
+.fui_checked_box .bank_sdb{background-position:-1px -1001px}
+.bank_shb{background-position:0 -1040px}
+.fui_checked_box .bank_shb{background-position:-1px -1041px}
+.bank_shbank{background-position:0 -1080px}
+.fui_checked_box .bank_shbank{background-position:-1px -1081px}
+.bank_shrcc{background-position:0 -1120px}
+.fui_checked_box .bank_shrcc{background-position:-1px -1121px}
+.bank_spdb{background-position:0 -1160px}
+.fui_checked_box .bank_spdb{background-position:-1px -1161px}
+.bank_unionpay{background-position:0 -1200px}
+.fui_checked_box .bank_unionpay{background-position:-1px -1201px}
+.bank_wzb{background-position:0 -1240px}
+.fui_checked_box .bank_wzb{background-position:-1px -1241px}
+.more_box{width:469px;height:23px;line-height:23px;background:#f6f6f6;border-top:1px #ececec solid;clear:both;text-align:center;position:relative;margin-top:10px;float:left}
+.more_box .more{width:75px;height:24px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png*/;background-position:0 -38px;color:#565656;display:block;position:absolute;top:0;left:50%;margin-top:-1px;margin-left:-52px;padding-left:30px}
+.more_box .more:hover .name{text-decoration:none}
+.more_box .more_icon{width:16px;height:16px;margin:3px 0 3px 0;display:block;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/form-s4f5d67a8c7.png*/;background-position:-80px -22px;float:left}
+.more_box .pack_up .more_icon{background-position:0 -22px}
+.more_box .name{width:30px;float:left}
+.button_a{white-space:nowrap;float:left;height:30px;line-height:30px;font-size:14px;padding:0 14px;display:inline-block;vertical-align:middle;margin-right:12px;border-width:1px;border-style:solid;border-radius:2px;float:left}
+.button_a .icon16{float:left;margin:7px 5px 7px 0}
+.button_a .name{float:left}
+.button_a:hover{text-decoration:none}
+.button_a:hover .name{text-decoration:none}
+.minibutton_a{white-space:nowrap;height:24px;line-height:24px;font-size:12px;padding:0 10px;display:inline-block;vertical-align:middle;margin-right:12px;border-width:1px;border-style:solid;border-radius:2px;float:left}
+.minibutton_a:hover{text-decoration:none}
+.minibutton_a:hover .name{text-decoration:none}
+.minitip_a{position:absolute;background:#ff4a4e;color:#fff;line-height:180%;padding:5px 10px;z-index:760;display:none}
+.minitip_a .arrow{width:0;height:0;font-size:0;overflow:hidden;border-width:6px;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#ff4a4e transparent transparent;position:absolute;left:10px;bottom:-12px}
+.minitip_b{padding:10px 15px;color:#fff;z-index:1000;position:absolute;left:50px;top:50px}
+.minitip_b.error{background:#ff4a4e}
+.minitip_b.success{background:#77be4c}
+.enter_zoom{color:#ff7127;background:#ffffef;border:1px #ffe99f solid;padding:5px 10px;font-size:18px;font-weight:700;position:absolute;z-index:750;box-shadow:10px 10px 20px rgba(0,0,0,.14)}
+.enter_zoom .content{white-space:nowrap}
+.enter_zoom .arrow{width:0;height:0;font-size:0;overflow:hidden;border-width:6px;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#ffffef transparent transparent;left:10px;bottom:-11px;position:absolute;z-index:2}
+.enter_zoom .arrow_bj{width:0;height:0;font-size:0;overflow:hidden;border-width:6px;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#ffe99f transparent transparent;bottom:-12px;z-index:1}
+.position_tipbox{position:absolute;z-index:1010;display:none;background:#000}
+.position_tipbox .top_arrow{width:0;height:0;font-size:0;overflow:hidden;border-width:8px;vertical-align:middle;border-style:dashed dashed solid dashed;border-color:transparent transparent #cecece transparent;position:absolute;left:16px;top:-15px;z-index:1}
+.position_tipbox .arrow_bj{width:0;height:0;font-size:0;overflow:hidden;border-width:8px;vertical-align:middle;border-style:dashed dashed solid dashed;border-color:transparent transparent #fff transparent;top:-14px;z-index:2}
+.mail_tip,.search_tip{border:1px #ddd solid;background:#fff;color:#565656;box-shadow:10px 10px 20px rgba(0,0,0,.14);overflow:hidden;z-index:10}
+.mail_tip .being,.search_tip .being{height:30px;line-height:30px;padding:0 10px;color:#797979;border-bottom:1px #ddd solid;background:#f1f1f1}
+.mail_tip .result_list,.search_tip .result_list{height:32px;line-height:32px;padding-bottom:1px;margin-top:1px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;overflow:hidden}
+.mail_tip a,.search_tip a{height:32px;padding:0 10px;color:#565656;display:block}
+.mail_tip a:hover,.search_tip a:hover{color:#242424;background-color:#f1f1f1}
+.mail_tip .current,.search_tip .current{color:#242424;background-color:#f1f1f1}
+.mail_tip li,.search_tip li{margin-bottom:-1px;vertical-align:top;position:relative}
+.mail_tip .result_list{height:26px;line-height:26px}
+.mail_tip a{height:26px}
+.option_box_parent .uploadify-queue{margin-left:0}
+.uploadify{text-align:center;height:30px;line-height:30px;border-width:1px;border-style:solid;border-radius:2px;margin-right:12px;position:relative;float:left}
+.uploadify .swfupload{left:0}
+.uploadify-queue{display:none;width:400px;padding:0 16px;clear:both;float:left;margin-top:16px;margin-left:95px;border:1px #e2e2e2 solid;position:relative}
+.uploadify-queue .tarrow{position:absolute;left:16px}
+.uploadify-queue .tarrow1{width:0;height:0;font-size:0;overflow:hidden;border-width:6px;vertical-align:middle;border-style:dashed dashed solid dashed;border-color:transparent transparent #cecece transparent;top:-13px;z-index:2}
+.uploadify-queue .tarrow2{width:0;height:0;font-size:0;overflow:hidden;border-width:6px;vertical-align:middle;border-style:dashed dashed solid dashed;border-color:transparent transparent #fff transparent;top:-12px;z-index:3}
+.uploadify-queue .cancel,.uploadify-queue .data,.uploadify-queue .fileName{height:16px;line-height:16px;padding-bottom:6px}
+.uploadify-queue .cancel{float:right}
+.uploadify-queue .cancel a{height:16px;display:block}
+.uploadify-queue .cancel a:hover{text-decoration:underline}
+.uploadify-queue .cancel a:hover .name{text-decoration:underline}
+.uploadify-queue .recover_16{filter:alpha(opacity=80);opacity:.8}
+.uploadify-queue .icon16{float:left;margin-right:2px}
+.uploadify-queue .name{float:left}
+.uploadify-queue .fileName{margin-right:10px;float:left}
+.uploadify-queue .data{color:#929292}
+.uploadify-queue-item{height:30px;padding:16px 0;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;margin-bottom:-1px;position:relative}
+.uploadify-progress{width:100%;height:8px;background-color:#f6f6f6;display:block;position:relative;clear:both}
+.uploadify-progress-bar{height:8px;display:inline-block;position:absolute;left:0;top:0;background:#77be4c}
+.line{width:1px;display:inline-block;overflow:hidden}
+.ad_gray_button .an,.minian_drop_menu .an{background:#888;border-color:#888;color:#fff;box-shadow:none}
+.ad_gray_button .an .start_icon_16,.minian_drop_menu .an .start_icon_16{background-position:-164px -32px}
+.ad_gray_button .an:hover,.minian_drop_menu .an:hover{background:#797979}
+.ad_gray_button .arrow_box,.minian_drop_menu .arrow_box{background:#888;border-color:#888;border-left-color:#9a9a9a;box-shadow:none}
+.ad_gray_button .b_arrow,.minian_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#fff transparent transparent}
+.ad_orange_button .an,.hot_gamelist .an_drop_menu .an,.hot_gamelist .minian_drop_menu .an{background:#ff5d13;border-color:#ff5d13;color:#fff;box-shadow:none}
+.ad_orange_button .an .start_icon_16,.hot_gamelist .an_drop_menu .an .start_icon_16,.hot_gamelist .minian_drop_menu .an .start_icon_16{background-position:-164px -32px}
+.ad_orange_button .an:hover,.hot_gamelist .an_drop_menu .an:hover,.hot_gamelist .minian_drop_menu .an:hover{background:#f04e04}
+.ad_orange_button .arrow_box,.hot_gamelist .an_drop_menu .arrow_box,.hot_gamelist .minian_drop_menu .arrow_box{background:#ff5d13;border-color:#ff5d13;border-left-color:#ff8f45;box-shadow:none}
+.ad_orange_button .b_arrow,.hot_gamelist .an_drop_menu .b_arrow,.hot_gamelist .minian_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#fff transparent transparent}
+.ad_blue_button .an,.good_gamelist .an_drop_menu .an,.good_gamelist .minian_drop_menu .an{background:#3098d5;border-color:#3098d5;color:#fff;box-shadow:none}
+.ad_blue_button .an .start_icon_16,.good_gamelist .an_drop_menu .an .start_icon_16,.good_gamelist .minian_drop_menu .an .start_icon_16{background-position:-164px -32px}
+.ad_blue_button .an:hover,.good_gamelist .an_drop_menu .an:hover,.good_gamelist .minian_drop_menu .an:hover{background:#2189c6}
+.ad_blue_button .arrow_box,.good_gamelist .an_drop_menu .arrow_box,.good_gamelist .minian_drop_menu .arrow_box{background:#3098d5;border-color:#3098d5;border-left-color:#4eb6f3;box-shadow:none}
+.ad_blue_button .b_arrow,.good_gamelist .an_drop_menu .b_arrow,.good_gamelist .minian_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#fff transparent transparent}
+.ad_white_button,.an_drop_menu{background:#f1f1f1;border-color:#c9c9c9;color:#565656}
+.ad_white_button .an,.an_drop_menu .an{color:#565656;border-color:#c9c9c9;background:#f1f1f1;box-shadow:-1px -1px 0 #fff inset,0 5px 30px #fff inset}
+.ad_white_button .an .start_icon_16,.an_drop_menu .an .start_icon_16{background-position:-113px 0}
+.ad_white_button .an:hover,.an_drop_menu .an:hover{background:#fff}
+.ad_white_button .arrow_box,.an_drop_menu .arrow_box{background:#f1f1f1;border-color:#c9c9c9;border-left-color:#d3d3d3;box-shadow:-1px -1px 0 #fff inset,0 5px 30px #fff inset}
+.ad_white_button .b_arrow,.an_drop_menu .b_arrow{width:0;height:0;font-size:0;overflow:hidden;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#565656 transparent transparent}
+.button_a,.gray_button,.minibutton_a{background:#888;border-color:#888;color:#fff;box-shadow:none}
+.button_a:hover,.gray_button:hover,.minibutton_a:hover{background:#797979}
+.orange_button{background:#ff5d13;border-color:#ff5d13;color:#fff;box-shadow:none}
+.orange_button:hover{background:#f04e04}
+.blue_button,.slide_radio dt{background:#3098d5;border-color:#3098d5;color:#fff;box-shadow:none}
+.blue_button:hover,.slide_radio dt:hover{background:#2189c6}
+.green_button{background:#72b947;border-color:#72b947;color:#fff;box-shadow:none}
+.green_button:hover{background:#63aa38}
+.uploadify,.white_button{color:#565656;border-color:#c9c9c9;background:#f1f1f1;box-shadow:-1px -1px 0 #fff inset,0 5px 30px #fff inset}
+.uploadify:hover,.white_button:hover{background:#fff}
+.txt_button{color:#0066a3;border-color:transparent;background:0 0;box-shadow:none}
+.txt_button:hover{background:0 0;text-decoration:underline}
+.button_disable{background:#f1f1f1;color:#b5b5b5;border-color:#ddd;cursor:default;box-shadow:none}
+.button_disable:hover{background:#f1f1f1}
+.process_bar{height:35px;line-height:35px;background:#ececec;color:#565656;margin-bottom:16px}
+.process_bar .pb_list{display:inline;padding:0 24px 0 10px;position:relative;float:left}
+.process_bar .pb_list .arrow{width:19px;height:35px;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop-sd23c55f7d5.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop-sd23c55f7d5.png*/;background-position:0 0;display:block;position:absolute;right:0;top:0}
+.process_bar .already_list{background-color:#77be4c;color:#fff}
+.process_bar .already_list .arrow{background-position:-16px -35px}
+.process_bar .current_list{background-color:#77be4c;color:#fff}
+.process_bar .current_list .arrow{background-position:-19px 0;}
+.process_bar .r_pb_list{padding:0 16px 0 10px;float:right}
+.pop_bj{background:#000;filter:alpha(opacity=40);opacity:.4;position:fixed;left:0;top:0;right:0;bottom:0;z-index:699;display:none}
+.pop_box{position:absolute;left:0;top:0;background:#fff;border:1px #ddd solid;box-shadow:0 0 50px rgba(0,0,0,.3)}
+.pop_box .title_box{line-height:40px;background:#f1f1f1;border-bottom:1px #ddd solid;margin:0;}
+.pop_box .title_box .name{padding-left:10px;font-size:14px;color:#565656;height:40px;line-height:40px;display:inline-block;white-space:nowrap}
+.pop_box .pop_cose{width:16px;height:16px;margin:12px 0;text-indent:-999px;overflow:hidden;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop-sd23c55f7d5.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop-sd23c55f7d5.png*/;background-position:0 -35px;position:absolute;right:10px;top:0;z-index:710}
+.pop_box .pop_cose:hover{background-position:0 -70px}
+.pop_box .pop_content{width:500px;overflow-y:auto;clear:both;position:relative;z-index:705;max-height:420px;margin:0;}
+.pop_box .pop_button{padding:17px 4px 16px 0;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ repeat-x;background-color:#f1f1f1;margin:0;text-align:right}
+.pop_box .pop_button .button_a{margin-right:16px;float:none}
+.pop_tbr{width:180px;text-align:right;color:#565656;height:20px;line-height:20px;position:absolute;right:40px;top:10px;z-index:708}
+.pop_tbr a{margin:0 5px}
+.douwa_tip{width:110px;height:140px;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/douwa_tip.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/douwa_tip.png*/;position:absolute;top:-80px;left:130px}
+.douwa_tip .slogin{width:110px;height:50px;display:block;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/douwa_tip.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/douwa_tip.png*/;overflow:hidden;position:absolute;top:10px;right:-80px}
+.drecharge_s{background-position:-110px 0}
+.drecharge_s .slogin{background-position:-110px -140px}
+.drecharge_e{background-position:0 0}
+.drecharge_e .slogin{background-position:0 -140px}
+.pop_recharge .box_w1{width:434px}
+.pop_recharge .fui_intensify .option_label{width:84px}
+.pop_doudou{width:450px;padding-bottom:20px;text-align:center;position:relative;color:#565656}
+.pop_doudou .doudou_flashbox{height:260px}
+.pop_doudou .score{font-size:24px;font-weight:700;color:#ff4a4e;position:absolute;top:40px;left:300px}
+.pop_doudou .share_tip{padding-top:10px}
+.share_button{height:26px;line-height:26px;color:#565656;padding-top:6px;text-align:center}
+.share_button .share_icon{width:67px;height:26px;display:inline-block;font-size:0;line-height:0;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/task-s741e0a91f5.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/task-s741e0a91f5.png*/;overflow:hidden;vertical-align:middle;margin-right:12px}
+.share_button .weibo_icon{background-position:0 -96px}
+.share_button .tweibo_icon{background-position:0 -122px}
+.custom_button_box{padding-top:10px}
+.popPunch{padding:20px 20px 0 20px}
+.popPunch__calendarSlide{width:532px;height:230px;margin-bottom:20px}
+.popPunch__calendar{width:363px;height:230px;float:left}
+.popPunch__calendarTable{width:100%;border-spacing:1px;border-collapse:separate}
+.popPunch__calendarTable td{height:32px;line-height:32px;text-align:center}
+.popPunch__calendarTable thead td{background-color:#e7e7e7}
+.popPunch__calendarTable tbody td{background-color:#f1f1f1}
+.popPunch__calendarDay{height:28px;line-height:28px;color:#565656;position:relative;display:block;border-width:2px;border-color:#f1f1f1;border-style:solid}
+.popPunch__calendarDay:hover{border-color:#e7e7e7;background-color:#fff;text-decoration:none}
+.popPunch__calendarDay--past{filter:alpha(Opacity=40);opacity:.4}
+.popPunch__calendarDay--past:hover{border-color:#f1f1f1;background-color:none}
+.popPunch__calendarDay--checkin{background-color:#77be4c;border-color:#77be4c;color:#fff}
+.popPunch__calendarDay--checkin .popPunch__selected{display:block}
+.popPunch__calendarDay--checkin:hover{background-color:#77be4c;border-color:#77be4c}
+.popPunch__calendarDay--today{background-color:#e7e7e7;border-color:#e7e7e7}
+.popPunch__calendarDay--today:hover{background-color:#e7e7e7;border-color:#e7e7e7}
+.popPunch__slideBox{width:150px;height:230px;float:right;position:relative;overflow:hidden}
+.popPunch__selected{width:16px;height:16px;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop_punch-s99f448db53.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop_punch-s99f448db53.png*/;display:block;position:absolute;overflow:hidden;right:0;bottom:0;display:none}
+.popPunch__slideTag{width:22px;height:63px;display:block;position:absolute;right:0;top:0;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop_punch-s99f448db53.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop_punch-s99f448db53.png*/;font-style:normal;color:#fff;padding-right:2px;padding-bottom:5px;text-align:center;-webkit-writing-mode:vertical-rl;-ms-writing-mode:tb-rl;writing-mode:vertical-rl;unicode-bidi:bidi-override}
+.popPunch__slide,.popPunch__slideImg,.popPunch__slideList,.popPunch__slideMenu{width:150px;height:230px;display:block}
+.popPunch__slideList{float:left}
+.popPunch__slideBtnBox{width:100%;height:12px;display:block;position:absolute;left:0;bottom:10px;z-index:2;font-size:0;text-align:center}
+.popPunch__slideBtn{width:12px;height:12px;display:block;overflow:hidden;background:#fff;display:inline-block;margin:0 3px;filter:alpha(Opacity=50);opacity:.5;border-radius:100px}
+.popPunch__slideBtn--current{width:24px;filter:alpha(enabled=false);opacity:1}
+.popPunch__stage{height:100px;position:relative;color:#565656}
+.popPunch__stageLine{height:1px;width:100%;background-color:#f1f1f1;overflow:hidden;position:absolute;left:0;top:47px}
+.popPunch__stageList{width:20%;height:100px;text-align:center;float:left;position:relative}
+.popPunch__stageList--current .popPunch__iconDoudou{background-position:0 -54px}
+.popPunch__stageList--current .popPunch__iconLottery{background-position:0 -86px}
+.popPunch__stageList--current .popPunch__radiu{background-position:0 -27px}
+.popPunch__stageList--current .popPunch__reward{color:#77be4c}
+.popPunch__icon{width:16px;height:16px;display:block;overflow:hidden;margin:0 auto 4px auto;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop_punch-s99f448db53.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop_punch-s99f448db53.png*/}
+.popPunch__radiu{width:11px;height:11px;display:block;overflow:hidden;position:absolute;left:50%;top:42px;margin-left:-5px;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop_punch-s99f448db53.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop_punch-s99f448db53.png*/}
+.popPunch__days,.popPunch__reward{height:20px;line-height:20px;display:block}
+.popPunch__reward{font-size:14px;font-weight:700;margin-bottom:16px}
+.popPunch__days{color:#929292}
+.popPunch__iconDoudou{background-position:0 -38px}
+.popPunch__iconLottery{background-position:0 -70px}
+.popPunch__radiu{background-position:0 -16px}
+.popPunch__selected{background-position:0 0}
+.popPunch__slideTag{background-position:0 -102px}
+.confirm_layer{padding:30px 30px 30px 93px;color:#565656}
+.confirm_layer .confirm_title{font-size:14px;padding-bottom:6px;white-space:nowrap}
+.confirm_layer .confirm_content{line-height:180%;clear:both}
+.confirm_layer .confirm_button{width:200px;padding-top:10px}
+.confirm_layer .type_icon{width:48px;height:48px;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop-sd23c55f7d5.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/pop-sd23c55f7d5.png*/;display:block;position:absolute;left:30px;top:32px}
+.confirm_layer .warning_48{background-position:0 -230px}
+.confirm_layer .success_48{background-position:0 -182px}
+.confirm_layer .error_48{background-position:0 -134px}
+.confirm_layer .birth_48{background-position:0 -86px}
+.confirm_layer .button_box{padding-top:6px}
+.confirm_button_2{padding:20px 0;text-align:right;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ repeat-x;background-color:#f6f6f6}
+.confirm_button_2 .button_a{float:none}
+.pop_tipsa,.pop_tipsb{color:#565656;line-height:180%}
+.pop_tipsa h4,.pop_tipsb h4{padding-bottom:6px;font-size:12px}
+.pop_tipsa{margin-bottom:20px;padding:16px 0 16px 0;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x}
+.pop_tipsb{background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ repeat-x;padding-top:16px}
+.pop_c_a{padding:0 16px 10px 16px}
+.pop_c_b{padding:16px 16px 10px 16px}
+.pop_c_c{padding:16px}
+.pop_c_d{padding:16px 0 0 0}
+.pop_c_d .pop_tipsa{margin-left:16px;margin-right:16px;padding-top:0}
+.loading{width:100%;height:100%;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/loading.gif")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/loading.gif*/ center center no-repeat;min-height:200px}
+.pop_tag_menubox{height:40px;line-height:40px;border-bottom:1px #cecece solid;background:#ececec}
+.pop_tag_menubox .tm_list{display:inline;float:left}
+.pop_tag_menubox .tm_menu{border:1px #ddd solid;border-left-color:transparent;border-bottom-color:transparent;border-left-style:none;border-bottom-style:none;font-size:14px;color:#a1a1a1;padding:0 16px;border-top:0;margin-bottom:-1px;position:relative;float:left}
+.pop_tag_menubox .tm_menu:hover{text-decoration:none;color:#797979}
+.pop_tag_menubox .current{border-right-color:#cecece;border-left-color:#cecece;border-left-style:solid;color:#565656;background:#fff;border-bottom-color:#fff;border-bottom-style:solid;margin-left:-2px;padding-left:17px}
+.pop_login .user_16_gray{background-position:-32px 0}
+.pop_login .key_16_gray{background-position:0 0}
+.pop_login .imgcode_16_gray{background-position:-16px 0}
+.pop_login .login_box{position:absolute;right:90px;top:0;z-index:3}
+.pop_login .title_box{height:30px;line-height:30px;font-size:14px;margin-bottom:16px;color:#565656;border-bottom:2px #c9c9c9 solid}
+.pop_login .login_form{margin:20px 20px 0 20px}
+.pop_login .login_form .icon16{background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/login-scd33b70385.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/login-scd33b70385.png*/}
+.pop_login .form_list{width:100%;padding-bottom:20px;position:relative;z-index:10}
+.pop_login .input_box{position:relative;z-index:11;float:left;margin-right:-20px}
+.pop_login .input_tip{height:50px;line-height:50px}
+.pop_login .input_w1{width:321px;margin-right:0}
+.pop_login .input_w2{width:171px}
+.pop_login .input_txt{padding:9px 9px 9px 48px;height:32px;line-height:32px;font-size:16px;border:0}
+.pop_login .img_code{width:138px;height:50px;margin-right:0;float:right}
+.pop_login .img_code img{width:138px;height:50px}
+.pop_login .icon_box{width:35px;height:50px;display:inline-block;overflow:hidden;background:#fbfbfb;border-right:1px #d8d8d8 solid;position:absolute;top:0;left:0;z-index:30}
+.pop_login .icon_box .icon16{margin:19px 10px}
+.pop_login .auto_login{height:20px;line-height:20px;color:#565656}
+.pop_login .auto_login .auto_login_l{float:left}
+.pop_login .auto_login .forget{float:right}
+.pop_login .auto_login .checkbox_a{height:20px;line-height:20px;float:left}
+.pop_login .auto_login .fui_checkbox{margin:2px 4px 2px 0}
+.pop_login .submit{font-size:14px;border:0;background:#ff5d13;color:#fff;border-radius:2px;width:100%;height:40px;line-height:40px}
+.pop_login .qr_code_login{padding:30px 20px 0 20px;height:260px}
+.pop_login .qr_code_login .qcl_top{height:20px;line-height:20px;margin-bottom:20px;text-align:center}
+.pop_login .qr_code_login .qcl_top a{color:#565656}
+.pop_login .qr_code_login .qcl_top .icon16{margin-right:4px;display:inline-block;vertical-align:middle;margin-top:-3px}
+.pop_login .qr_code_login .qcl_top .name{height:16px;line-height:16px;font-size:14px}
+.pop_login .qr_code_login .back{float:right;display:none}
+.pop_login .qr_code_login .qr_code,.pop_login .qr_code_login .qr_code_confirm{width:188px;height:120px;margin-bottom:30px;position:relative}
+.pop_login .qr_code_login .refresh_gray_30{width:30px;height:30px;display:block;overflow:hidden;margin:26px auto 8px auto;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/ -46px -52px}
+.pop_login .qr_code_login .refresh{color:#565656;position:absolute;left:0;top:0;width:100%;height:100%;background:#fff;text-align:center;filter:alpha(opacity=95);opacity:.95;display:none}
+.pop_login .qr_code_login .qr_code_img{width:120px;height:120px;display:block;margin:0 auto}
+.pop_login .qr_code_login .qr_code_img img{width:120px;height:120px}
+.pop_login .qr_code_login .help_side{width:100%;height:100%;position:absolute;left:0;top:0;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/help_side.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/help_side.png*/ top center no-repeat;display:none}
+.pop_login .qr_code_login .icon_4399{width:24px;height:24px;display:block;overflow:hidden;position:absolute;left:50%;top:50%;margin:-12px 0 0 -12px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/ 0 -84px}
+.pop_login .qr_code_login .qr_code_confirm{text-align:center;color:#77be4c}
+.pop_login .qr_code_login .qr_code_confirm .icon48{margin-bottom:5px}
+.pop_login .qr_code_login .qr_code_confirm .tip_title{font-size:16px;height:32px;line-height:32px}
+.pop_login .qr_code_login .qr_code_confirm .tip_txt{font-size:12px;height:20px;line-height:20px;margin-bottom:4px}
+.pop_login .qr_code_login .down_game_box{width:160px;height:32px;line-height:32px;background:#63aa38;font-size:12px;text-align:center;color:#fff;display:block;margin:0 auto;border-radius:21px}
+.pop_login .form_box{margin-bottom:12px;border:1px #c4c4c4 solid}
+.pop_login .form_box .form_list{padding-bottom:0;border-top:1px #e2e2e2 solid}
+.pop_login .form_box .first_list{margin-top:0;border-top:0}
+.pop_login .form_box input[type=password],.pop_login .form_box input[type=text]{box-shadow:none}
+.pop_login .form_box input[type=password]:focus,.pop_login .form_box input[type=text]:focus{box-shadow:none}
+.pop_content .with_other_login{padding:14px 20px 19px 20px;height:20px;line-height:20px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ repeat-x}
+.pop_content .with_other_login .line{height:12px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png*/ -1px 0 repeat-y;filter:alpha(opacity=30);opacity:.3;position:absolute;right:-18px;top:5px}
+.pop_content .with_other_login li{display:inline}
+.pop_content .with_other_login a{color:#565656;margin-right:36px;position:relative;float:left}
+.pop_content .with_other_login a .icon16{margin:2px 0;margin-right:3px;float:left}
+.pop_content .with_other_login a .name{float:left}
+.pop_content .with_other_login .reg{color:#3098d5;white-space:nowrap;float:right;margin:0}
+.attention_weixin{width:430px;height:155px}
+.attention_weixin .weixin_img{width:155px;height:155px;margin-right:20px;display:inline;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/weixin_img.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/weixin_img.png*/ no-repeat;float:left}
+.attention_weixin .weixin_info{width:250px;float:left;color:#565656;line-height:200%}
+.attention_weixin .weixin_info h3{padding-bottom:4px}
+@media screen and (-webkit-min-device-pixel-ratio:0){input{line-height:normal!important}
+}
+:focus,a:focus{outline:0}
+button,input{overflow-x:visible}
+html{background-color:#fff;overflow-y:scroll}
+body{background:#f5f5f5 url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/body_bj.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/body_bj.png*/ center top repeat-x;font-size:12px}
+img{border:0}
+img{border:0 none;width:auto\9;height:auto;max-width:100%;vertical-align:top;-ms-interpolation-mode:bicubic}
+.main{width:960px;margin-bottom:16px;overflow:hidden;position:relative;z-index:2}
+.l_side,.r_side{width:239px;padding-bottom:9999px;margin-bottom:-9999px}
+.l_side{float:left;border-right:1px #ddd solid}
+.r_side{float:right;border-left:1px #ddd solid}
+.l_main,.r_main{width:720px}
+.l_main{float:left}
+.r_main{float:right}
+.main_cc .part_b{margin:0}
+.b_arrow{width:0;height:0;font-size:0;overflow:hidden;border-width:4px;vertical-align:middle;border-style:solid dashed dashed dashed;border-color:#797979 transparent transparent;margin-left:5px}
+.no_result{width:100%;height:320px;text-align:center;color:#565656;margin-top:16px;position:relative}
+.no_result .nr_box{width:100%;height:90px;position:absolute;top:50%;left:0;margin-top:-55px}
+.no_result .no_result{margin:0 auto;width:49px;height:49px;display:block;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/ -144px -264px}
+.no_result .nr_tip_txt{line-height:180%;padding-top:10px;display:block}
+.tips_block{color:#ff7127;line-height:180%;padding:10px;background:#ffffef;border:1px #ffe99f solid;margin-bottom:20px}
+.tips_block a{padding:0 5px}
+.help_block{color:#565656;line-height:180%;border:1px #ececec solid;background-color:#fbfbfb;padding:10px}
+.text_block{color:#565656;line-height:180%;margin-bottom:20px}
+.drop_menu{position:relative}
+.drop_box{position:absolute;display:none}
+.top_nav{width:100%;color:#919191;z-index:390;position:fixed;left:0;top:0;height:32px;line-height:32px;border-bottom:1px #d7d7d7 solid}
+.top_nav .cc{width:960px;height:32px;line-height:32px;position:relative;z-index:2}
+.top_nav .bj{background:#fefefe;background:-moz-linear-gradient(top,#fefefe 0,#fafafa 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fefefe),color-stop(100%,#fafafa));background:-webkit-linear-gradient(top,#fefefe 0,#fafafa 100%);background:-o-linear-gradient(top,#fefefe 0,#fafafa 100%);background:-ms-linear-gradient(top,#fefefe 0,#fafafa 100%);background:linear-gradient(to bottom,#fefefe 0,#fafafa 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#fafafa', GradientType=0);width:100%;height:32px;position:absolute;top:0;left:0;z-index:1}
+.top_nav .rt_tit{padding-right:10px}
+.top_nav .menu_list{display:inline;position:relative;margin-right:-1px;float:left}
+.top_nav .menu_list .user_number{color:#ff5d13;font-size:14px;margin:0 3px}
+.top_nav .menu_list .menu{padding:0 9px 0 8px;float:left}
+.top_nav .menu_list .menu .icon16{margin:8px 2px 8px 0;float:left}
+.top_nav .menu_list .menu:hover{color:#ff5d13}
+.top_nav .menu_list .name{float:left}
+.top_nav .menu_list .tipText{padding-left:10px}
+.top_nav .drop_menu .menu{padding:0 20px 0 8px}
+.top_nav .drop_menu .b_arrow{position:absolute;right:8px;top:14px}
+.top_nav .line{height:12px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png*/ -1px 0 repeat-y;filter:alpha(opacity=30);opacity:.3;position:absolute;right:0;top:10px;margin:0 auto}
+.top_nav a{color:#565656}
+.top_nav .l_menu{float:left}
+.top_nav .r_menu{float:right}
+.top_nav .my_info .drop_box{width:248px;color:#565656}
+.top_nav .my_info .drop_box a{color:#237db2}
+.top_nav .my_info .drop_box .a_info_list{height:38px;line-height:38px;padding-left:10px}
+.top_nav .my_info .drop_box .account_info{padding:8px 0}
+.top_nav .my_info .drop_box .account_info .a_info_list{height:26px;line-height:26px}
+.top_nav .my_info .drop_box .lc{width:80%;float:left}
+.top_nav .my_info .drop_box .lc .icon16{margin:11px 6px 11px 0;float:left}
+.top_nav .my_info .drop_box .lc .vip_grade{margin:14px 0 13px 0;float:left}
+.top_nav .my_info .drop_box .user_name{margin-right:5px;color:#000;float:left}
+.top_nav .my_info .drop_box .account_info{background:#fafafa;border-top:1px #e2e2e2 solid;border-bottom:1px #e2e2e2 solid}
+.top_nav .my_info .drop_box .account_info .number{color:#565656;margin-right:5px}
+.top_nav .my_info .drop_box .account_info .game_oof{color:#ff5d13}
+.top_nav .my_info .drop_box .account_info .msg_number{padding:1px 5px;border-radius:5px;background:#565656;color:#fff}
+.top_nav .my_info .drop_box .account_info .safe_level_bar{margin:8px 0}
+.top_nav .my_message .drop_box{width:268px;color:#565656}
+.top_nav .my_message .no_result{height:136px}
+.top_nav .my_message .no_result .nr_box{height:68px;top:60%}
+.top_nav .my_message .no_result .no_message{width:32px;height:32px;display:block;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/ -108px -52px;margin:0 auto}
+.top_nav .my_message .message_title{height:36px;line-height:36px;padding:0 10px 1px 10px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;font-weight:700}
+.top_nav .my_message .message_info{height:120px;margin:6px 10px 10px 10px;line-height:20px;overflow-x:hidden;overflow-y:auto}
+.top_nav .my_message .message_info a{color:#3098d5;padding:0 2px}
+.top_nav .my_message .message_info a:hover{text-decoration:underline}
+.top_nav .my_message .message_buttonbox{height:22px;padding:8px;border-top:1px #ddd solid;background-color:#f6f6f6}
+.top_nav .my_message .message_buttonbox a{height:20px;line-height:20px;padding:0 5px;background:#fff;border:1px #ddd solid;display:inline-block;margin-right:-1px;float:left}
+.top_nav .my_message .message_buttonbox .disable{color:#cecece;background:#f6f6f6;cursor:default}
+.top_nav .my_message .message_buttonbox .disable:hover{text-decoration:none}
+.top_nav .my_message .l_bb{float:left}
+.top_nav .my_message .r_bb{padding-right:1px;float:right}
+.top_nav .current_drop_menu .line{display:none}
+.top_nav .current_drop_menu .b_arrow{right:7px}
+.top_nav .current_drop_menu .menu{background:#fff;border-left:1px #d7d7d7 solid;border-right:1px #d7d7d7 solid;padding:0 19px 0 7px;height:33px;margin-bottom:-1px;position:relative;z-index:15}
+.top_nav .drop_box{border:1px #d7d7d7 solid;background:#fff;right:0;top:32px;z-index:10;box-shadow:10px 10px 20px rgba(0,0,0,.14);position:absolute}
+.game_storage{width:419px;position:relative;overflow:hidden}
+.game_storage .title_box{height:38px;line-height:38px;background:#f1f1f1;border-bottom:1px #ddd solid}
+.game_storage .title_box .name{font-size:14px;padding-left:10px;color:#565656;float:left}
+.game_storage .title_box .quick_select{float:right;padding:7px 7px 7px 0}
+.game_storage .title_box .quick_select .input_txt{width:151px;height:12px;line-height:12px}
+.game_storage a:hover{color:#ff5d13}
+.game_storage .inde_menu{border-bottom:1px #e2e2e2 solid;padding:0 10px;height:38px;line-height:38px}
+.game_storage .inde_menu li{display:inline;float:left;cursor:pointer}
+.game_storage .inde_menu .tab{padding:0 6px;margin:7px 6px 0 0;height:24px;line-height:24px;float:left}
+.game_storage .inde_menu .on{background:#ff5d13;color:#fff}
+.game_storage .inde_menu .on:hover{color:#fff}
+.game_storage .down_client{height:24px;line-height:24px;margin:7px 0 0 0;padding:0 8px 0 6px;border-radius:2px;background:#ff5d13;color:#fff;position:absolute;top:0;right:10px}
+.game_storage .down_client .icon16{margin:4px 2px 4px 0;float:left}
+.game_storage .down_client:hover{background:#f55309;color:#fff}
+.game_storage .all_games{margin-bottom:-1px}
+.game_storage .all_games .letter{width:34px;line-height:34px;border-right:1px #ddd solid;padding-bottom:999px;margin-bottom:-999px;text-align:center;float:left;position:relative;z-index:1}
+.game_storage .all_games .game_list{width:385px;line-height:26px;#margin-top:-34px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;padding:4px 0 4px 34px;position:relative}
+.game_storage .all_games a{padding:0 10px;white-space:nowrap;float:left}
+.game_storage .all_games em{display:none}
+.game_storage .played{width:102%;max-height:159px;line-height:26px;position:relative;border-bottom:1px #e7e7e7 solid;margin-bottom:-1px;overflow:hidden}
+.game_storage .played a{width:120px;height:32px;line-height:32px;border:1px #e7e7e7 solid;margin-bottom:-1px;border-top:0;border-left:0;padding:0 10px;white-space:nowrap;position:relative;z-index:2;float:left}
+.game_storage .played a:hover{background:#f6f6f6;z-index:1}
+.game_storage .no_result{height:40px;line-height:40px;color:#565656;margin:0;padding:5px 0;clear:both}
+.game_storage .mini_pagebox{background:#fff;position:relative;z-index:2;margin-top:1px;padding:7px}
+.game_storage .all_server a{width:189px}
+.game_storage .game_scroll{width:419px;overflow-y:scroll}
+.game_storage .game_scroll a{width:180px}
+.game_select_box{width:419px;border:1px #ddd solid;box-shadow:10px 10px 20px rgba(0,0,0,.14);background:#fff;display:block}
+.game_picker,.server_picker{width:421px}
+.icon16{width:16px;height:16px;display:inline-block;vertical-align:middle;overflow:hidden;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/}
+.icon32{width:32px;height:32px;display:inline-block;vertical-align:middle;overflow:hidden}
+.desktop_16_gray{background-position:-92px -52px}
+.fav_16_gray{background-position:-56px -116px}
+.game_16_gray{background-position:-72px -116px}
+.reg_16_gray{background-position:-188px -52px}
+.search_16_gray{background-position:-65px 0}
+.user_16_gray{background-position:-24px -116px}
+.message_16_gray{background-position:-132px -84px}
+.message_new_16_gray{background-position:-84px -84px}
+.key_16_gray{background-position:-151px -16px}
+.imgcode_16_gray{background-position:-135px -16px}
+.qq_16_gray{background-position:-100px -84px}
+.del_16_gray{background-position:-49px 0}
+.add_16_gray{background-position:-33px 0}
+.add_16_green{background-position:-148px -84px}
+.doudou_16_gray{background-position:-119px -16px}
+.time_16_gray{background-position:-161px 0}
+.camera_16_gray{background-position:-140px -52px}
+.weibo_16_gray{background-position:-76px -52px}
+.weixin_16_gray{background-position:-64px -160px}
+.home_16_white{background-position:-76px -32px}
+.start_16_white{background-position:-164px -32px}
+.start_16_gray{background-position:-113px 0}
+.help_16{background-position:-116px -84px}
+.target_blank_16{background-position:-145px 0}
+.voucher_16{background-position:-44px -32px}
+.like_16{background-position:-167px -16px}
+.f_search{background-position:-92px -32px}
+.f_date{background-position:-183px -16px}
+.official_16{background-position:-60px -32px}
+.service_16{background-position:-40px -116px}
+.date_16{background-position:-12px -32px}
+.home_16_gray{background-position:-156px -52px}
+.recover_16{background-position:-88px -116px}
+.sad_game16{background-position:-28px -32px}
+.sad_pack16{background-position:-81px 0}
+.down_16_white{background-position:-129px 0}
+.artificialr_16_white{background-position:-46px -84px}
+.cose_gray_16{background-position:-97px 0}
+a:hover .weibo_16_gray{background-position:-76px -68px}
+a:hover .weixin_16_gray{background-position:-64px -176px}
+a:hover .qq_16_gray{background-position:-100px -100px}
+a:hover .game_16_gray{background-position:-72px -132px}
+a:hover .add_16_green{background-position:-148px -100px}
+a:hover .message_16_gray{background-position:-132px -100px}
+a:hover .message_new_16_gray{background-position:-84px -100px}
+a:hover .user_16_gray{background-position:-24px -132px}
+a:hover .reg_16_gray{background-position:-188px -68px}
+a:hover .fav_16_gray{background-position:-56px -132px}
+a:hover .desktop_16_gray{background-position:-92px -68px}
+a:hover .camera_16_gray{background-position:-140px -68px}
+a:hover .help_16{background-position:-116px -100px}
+a:hover .home_16_gray{background-position:-156px -68px}
+a:hover .recover_16{background-position:-88px -132px}
+.message_new_16_gray{background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/message_new_16.gif")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/message_new_16.gif*/ 0 0 no-repeat}
+a:hover .message_new_16_gray{background-position:0 -16px}
+.current .qq_16_gray{background-position:-100px -100px}
+.current .weibo_16_gray{background-position:-76px -68px}
+.vip_16{background-position:-48px -176px}
+.notvip_16{background-position:-48px -160px;filter:alpha(opacity=30);opacity:.3}
+.vip_grade{width:35px;height:13px;display:inline-block;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/vip_grade-sbdd5322f66.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/vip_grade-sbdd5322f66.png*/;overflow:hidden}
+.grade_vip0{background-position:0 -13px}
+.grade_vip1{background-position:0 -39px}
+.grade_vip2{background-position:0 -91px}
+.grade_vip3{background-position:0 -117px}
+.grade_vip4{background-position:0 -143px}
+.grade_vip5{background-position:0 -169px}
+.grade_vip6{background-position:0 -195px}
+.grade_vip7{background-position:0 -221px}
+.grade_vip8{background-position:0 -247px}
+.grade_vip9{background-position:0 -273px}
+.grade_vip10{background-position:0 -65px}
+.win_48{background-position:-96px -264px}
+.fail_48{background-position:-38px -313px}
+.warn_48{background-position:-86px -313px}
+.hint_48{background-position:-48px -264px}
+.icon48{background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/;background-repeat:no-repeat;display:inline-block;overflow:hidden}
+.official_16{margin-top:-4px;filter:alpha(opacity=40);opacity:.4}
+.tag_a{width:22px;height:29px;display:inline-block;overflow:hidden;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/;display:none}
+.hot_tag{background-position:-62px -84px}
+.good_tag{background-position:-24px -84px}
+.p1_ico{width:26px;height:11px;display:inline-block;overflow:hidden;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/}
+.p1_hot_tag{background-position:-51px -16px}
+.p1_new_tag{background-position:-138px -32px}
+.mini_star_box{display:inline-block;overflow:hidden;margin-bottom:-1px}
+.mini_star_box .star{width:12px;height:12px;display:inline;overflow:hidden;float:left;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/;background-position:0 -32px}
+.mini_star_box .star_disable{background-position:-26px -16px}
+.mini_number{width:13px;height:13px;display:inline-block;vertical-align:middle;overflow:hidden;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/}
+.number_a01{background-position:-90px -16px}
+.number_a02{background-position:-77px -16px}
+.number_a03{background-position:-38px -16px}
+.number_a04{background-position:0 0}
+.number_a05{background-position:-13px 0}
+.login_packslink{height:272px;border-bottom:1px #d8d8d8 solid;overflow:hidden;position:relative}
+.login_packslink .b_shadow{width:100%;height:10px;border-bottom:8px #fff solid;position:absolute;left:0;bottom:0;z-index:99;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00fffffe', endColorstr='#ffffff', GradientType=0);background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/8cc26be22faa4de59251873acd7f091b.gif")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/8cc26be22faa4de59251873acd7f091b.gif*/;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/776a813786924a4d9587e0a94f07fe5e.gif")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/776a813786924a4d9587e0a94f07fe5e.gif*/;background-size:100%;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0,rgba(255,255,255,0)),color-stop(100%,#fff));background-image:-moz-linear-gradient(top,rgba(255,255,255,0) 0,#fff 100%);background-image:-webkit-linear-gradient(top,rgba(255,255,255,0) 0,#fff 100%);background-image:linear-gradient(to bottom,rgba(255,255,255,0) 0,#fff 100%)}
+.side .loginbox{width:207px;padding:16px 0;margin:0 16px;position:relative;z-index:3}
+.side .loginbox .form_list{width:100%;padding-bottom:12px;position:relative;z-index:10}
+.side .loginbox .input_box{position:relative;z-index:11;float:left;margin-right:-20px}
+.side .loginbox .input_tip{height:40px;line-height:40px}
+.side .loginbox .input_w1{width:163px}
+.side .loginbox .input_w2{width:53px}
+.side .loginbox .input_txt{padding-left:36px;height:30px;line-height:30px;border:0}
+.side .loginbox .img_code{width:110px;height:40px;margin:0;float:right;overflow:hidden}
+.side .loginbox .img_code img{width:110px;height:40px}
+.side .loginbox .qr_code_icon{width:20px;height:20px;display:block;overflow:hidden;position:absolute;right:23px;top:10px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/ -180px -32px no-repeat;filter:alpha(opacity=20);opacity:.2}
+.side .loginbox .qr_code_icon:hover{filter:alpha(opacity=50);opacity:.5}
+.side .loginbox .icon_box{width:28px;height:40px;display:inline-block;overflow:hidden;background:#fbfbfb;border-right:1px #d8d8d8 solid;position:absolute;top:0;left:0;z-index:30}
+.side .loginbox .icon_box .icon16{margin:12px 6px}
+.side .loginbox .auto_login{height:20px;line-height:20px;color:#565656}
+.side .loginbox .auto_login .auto_login_l{float:left}
+.side .loginbox .auto_login .forget{float:right}
+.side .loginbox .auto_login .checkbox_a{height:20px;line-height:20px;float:left}
+.side .loginbox .auto_login .fui_checkbox{margin:2px 4px 2px 0}
+.side .loginbox .submit{font-size:14px;border:0;background:#ff5d13;color:#fff;border-radius:2px;width:100%;height:36px;line-height:36px}
+.side .loginbox .with_other_login{height:20px;line-height:20px}
+.side .loginbox .with_other_login li{display:inline}
+.side .loginbox .with_other_login .line{display:none}
+.side .loginbox .with_other_login a{color:#565656;margin-right:10px;float:left}
+.side .loginbox .with_other_login a .icon16{margin:2px 0;margin-right:3px;float:left}
+.side .loginbox .with_other_login a .name{float:left}
+.side .loginbox .with_other_login .reg{color:#3098d5;float:right;margin:0}
+.side .qr_code_login{padding:16px 16px 0 16px;height:252px;display:none}
+.side .qr_code_login .qcl_top{height:16px;margin-bottom:26px}
+.side .qr_code_login .qcl_top a{color:#565656}
+.side .qr_code_login .qcl_top .icon16{margin-right:4px;float:left}
+.side .qr_code_login .qcl_top .name{height:16px;line-height:16px;float:left}
+.side .qr_code_login .help{float:left}
+.side .qr_code_login .back{float:right}
+.side .qr_code_login .qr_code,.side .qr_code_login .qr_code_confirm{width:188px;height:120px;margin-bottom:30px;position:relative}
+.side .qr_code_login .refresh_gray_30{width:30px;height:30px;display:block;overflow:hidden;margin:26px auto 8px auto;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/ -46px -52px}
+.side .qr_code_login .refresh{color:#565656;position:absolute;left:0;top:0;width:100%;height:100%;background:#fff;text-align:center;filter:alpha(opacity=95);opacity:.95;display:none}
+.side .qr_code_login .qr_code_img{width:120px;height:120px;display:block;margin:0 auto}
+.side .qr_code_login .qr_code_img img{width:120px;height:120px}
+.side .qr_code_login .help_side{width:100%;height:100%;position:absolute;left:0;top:0;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/help_side.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/help_side.png*/ top center no-repeat;display:none}
+.side .qr_code_login .icon_4399{width:24px;height:24px;display:block;overflow:hidden;position:absolute;left:50%;top:50%;margin:-12px 0 0 -12px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/ 0 -84px}
+.side .qr_code_login .qr_code_confirm{text-align:center;color:#77be4c}
+.side .qr_code_login .qr_code_confirm .icon48{margin-bottom:5px}
+.side .qr_code_login .qr_code_confirm .tip_title{font-size:16px;height:32px;line-height:32px}
+.side .qr_code_login .qr_code_confirm .tip_txt{font-size:12px;height:20px;line-height:20px;margin-bottom:4px}
+.side .qr_code_login .down_game_box{width:150px;height:32px;line-height:32px;background:#63aa38;text-align:center;color:#fff;display:block;margin:0 auto;border-radius:16px}
+.side .form_box{margin-bottom:12px;border:1px #c4c4c4 solid}
+.side .form_box .form_list{padding-bottom:0;border-top:1px #e2e2e2 solid}
+.side .form_box .first_list{margin-top:0;border-top:0}
+.side .form_box input[type=password],.side .form_box input[type=text]{box-shadow:none}
+.side .form_box input[type=password]:focus,.side .form_box input[type=text]:focus{box-shadow:none}
+.side .packs_link{height:51px;line-height:51px;margin:0 16px;border-top:1px #e7e7e7 solid;display:block;text-indent:-999px;overflow:hidden;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/;background-position:0 -361px;background-repeat:no-repeat}
+.side .sadbox{height:30px;line-height:30px;font-size:12px;font-weight:700;padding:8px 0 13px 0;margin:0 16px;border-top:1px #e7e7e7 solid}
+.side .sadbox .sad_list{width:91px;padding-left:12px;float:left;position:relative}
+.side .sadbox .sad_pack{padding-right:1px;color:#ff5d13}
+.side .sadbox .icon16{margin:7px 6px 7px;float:left}
+.side .sadbox .line{height:18px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png*/ -1px 0 repeat-y;filter:alpha(opacity=20);opacity:.2;position:absolute;right:0;top:8px}
+.side .my_info_box{width:206px;margin:16px 16px 0 16px;padding-bottom:12px;color:#565656;position:relative;z-index:3}
+.side .my_info_box .avatar_box{height:59px;padding-bottom:17px;border-bottom:1px #e7e7e7 solid}
+.side .my_info_box .avatar_box .name{font-size:14px;padding-bottom:2px}
+.side .my_info_box .avatar{width:56px;height:56px;padding:1px;border:1px #ddd solid;float:left}
+.side .my_info_box .avatar img{width:56px;height:56px}
+.side .my_info_box .name_box{padding-left:14px;color:#565656;float:left}
+.side .my_info_box .greeting{color:#7e7e7e;padding-bottom:4px}
+.side .my_info_box .vip_info{height:20px;padding-bottom:2px}
+.side .my_info_box .vip_info .icon16{margin:2px 6px 2px 0;float:left}
+.side .my_info_box .vip_info .vip_grade{margin:4px 0 3px 0;float:left}
+.side .my_info_box .link_box{height:20px;line-height:20px}
+.side .my_info_box .link_list{display:line;padding-right:17px;position:relative;float:left}
+.side .my_info_box .link_list .line{height:12px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png*/ -1px 0 repeat-y;filter:alpha(opacity=30);opacity:.3;position:absolute;top:5px;right:8px}
+.side .my_info_box .link{float:left}
+.side .my_info_box .ai_hg_box{position:relative}
+.side .my_info_box .history_played{padding-top:10px;position:absolute;left:0;width:100%;background:#fff;z-index:5}
+.side .my_info_box .history_played .playedbox{display:none}
+.side .my_info_box .history_played .show_arrow{width:30px;height:10px;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/;background-position:0 -52px;filter:alpha(opacity=20);opacity:.2;display:block;position:absolute;left:50%;top:0;margin-left:-15px;overflow:hidden;cursor:pointer}
+.side .my_info_box .history_played .show_arrow:hover{filter:alpha(opacity=40);opacity:.4}
+.side .my_info_box .history_played .pl_icon{width:4px;height:4px;margin:11px 5px 11px 0;background:#b5b5b5;border-radius:10px;overflow:hidden;float:left}
+.side .my_info_box .playedbox .p_lsit{height:26px;line-height:26px}
+.side .my_info_box .show_history_played{height:104px}
+.side .my_info_box .show_history_played .playedbox{display:block}
+.side .my_info_box .show_history_played .show_arrow{background-position:-108px -32px;top:auto;bottom:-12px}
+.side .my_info_box .account_info{padding-top:10px;height:104px}
+.side .my_info_box .account_info .name{float:left}
+.side .my_info_box .account_info .a_info_list{height:26px;line-height:26px}
+.side .my_info_box .account_info .number{color:#565656;margin-right:5px}
+.side .my_info_box .account_info .game_oof{color:#ff5d13}
+.side .my_info_box .account_info .msg_number{padding:1px 5px;border-radius:5px;background:#565656;color:#fff}
+.side .my_info_box .account_info .safe_level_bar{margin:8px 0}
+.side .my_info_box .lc{width:80%;float:left}
+.layer_a{background:#fff;box-shadow:0 0 5px rgba(0,0,0,.08)}
+.tag_box_1{height:36px;line-height:36px;padding:4px 0 2px 0;position:relative;border-bottom:2px #ddd solid}
+.tag_box_1 .menu_list{display:inline;font-size:14px;padding-right:22px;position:relative;float:left}
+.tag_box_1 .menu{color:#565656;float:left}
+.tag_box_1 .current{color:#ff5d13}
+.tag_box_1 .more{float:right;font-size:12px}
+.tag_box_1 .more a{color:#565656}
+.tag_box_1 dt{width:0;height:2px;background:#ff5d13;position:absolute;left:0;bottom:-2px}
+.tag_box_1 dt .t_arrow{width:0;height:0;font-size:0;overflow:hidden;border-width:6px;vertical-align:middle;border-style:dashed dashed solid dashed;border-color:transparent transparent #ff5d13 transparent;position:absolute;bottom:0;left:50%;margin-left:-6px;display:none}
+.tag_box_1 .line{height:12px;position:absolute;right:10px;top:12px;background:#c9c9c9}
+.tag_box_1 .r_sort{float:right;font-size:12px;overflow:hidden}
+.tag_box_1 .r_sort .rs_list{display:inline;position:relative;float:left}
+.tag_box_1 .r_sort .menu{margin:0 14px}
+.tag_box_1 .r_sort .line{height:11px;position:absolute;right:-1px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png*/ -1px 0 repeat-y;filter:alpha(opacity=20);opacity:.2}
+.tag_box_1 .roll_news_box{width:400px;text-align:right;height:20px;line-height:20px;color:#a6a6a6;font-size:12px;overflow:hidden;position:absolute;bottom:8px;right:0}
+.tag_box_1 .roll_news_box .rn_list{height:20px}
+.tag_box_1 .roll_news_box a{padding:0 4px}
+.header{width:960px;height:116px;margin-bottom:16px;padding-top:33px;position:relative;z-index:2}
+.header .header_top{height:76px}
+.header .logo{width:195px;height:50px;line-height:50px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/logo.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/logo.png*/ no-repeat;text-indent:-999px;overflow:hidden;margin:13px 0;float:left;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="//pic.my4399.com/newWeb/images/http://www.grantion.cn/pay/logo.png")}
+.header .search_box{width:730px;height:34px;margin:21px 0;float:right}
+.header .search_box .input_tip{height:34px;line-height:34px}
+.header .hot_key,.header .search_frombox{float:left}
+.header .search_frombox{position:relative}
+.header .search_frombox .input_txt{height:22px;line-height:22px;padding:5px 43px 5px 10px;width:220px;float:left}
+.header .search_frombox .ss_box{width:32px;height:32px;position:absolute;top:1px;right:1px;border-left:1px #c9c9c9 solid}
+.header .search_frombox .ss_box .icon16{position:absolute;position:absolute;left:8px;top:8px}
+.header .search_frombox .ss_box .search_submit{width:32px;height:32px;line-height:32px;border:0;background:#fefefe;background:-moz-linear-gradient(top,#fefefe 0,#f7f7f7 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fefefe),color-stop(100%,#f7f7f7));background:-webkit-linear-gradient(top,#fefefe 0,#f7f7f7 100%);background:-o-linear-gradient(top,#fefefe 0,#f7f7f7 100%);background:-ms-linear-gradient(top,#fefefe 0,#f7f7f7 100%);background:linear-gradient(to bottom,#fefefe 0,#f7f7f7 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#f7f7f7', GradientType=0);display:block}
+.header .hot_key{width:439px;height:34px;line-height:34px;color:#565656;padding-left:16px;overflow:hidden}
+.header .hot_key li{display:inline;float:left}
+.header .hot_key a{padding-right:10px;color:#565656}
+.header .header_menu{height:38px;line-height:38px;font-size:14px;font-weight:700;background-color:#d72226;border:1px #cd181c solid}
+.header .menu_box li{height:38px;display:inline;position:relative;float:left}
+.header .menu_box .menu{color:#fff;padding:0 15px;margin-left:-1px;float:left}
+.header .menu_box .menu .icon16{float:left;margin:11px 3px 0 0}
+.header .menu_box .menu .name{float:left}
+.header .menu_box .current .line{display:none}
+.header .menu_box .current .menu{background:#b90408;position:relative;z-index:5}
+.header .menu_box .line{width:1px;height:14px;overflow:hidden;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png*/ repeat-y;filter:alpha(opacity=40);opacity:.4;position:absolute;top:12px;right:0;z-index:1}
+.header .menu_box .r_menu{float:right}
+.header .menu_box .r_menu .menu{background:#cd181c;border-left:1px #e63135 solid;box-shadow:1px 0 3px 0 rgba(0,0,0,.1) inset}
+.header .menu_box .r_menu .phone_16_white{width:21px;height:21px;margin:6px 3px 0 0;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/phone_bling.gif")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/phone_bling.gif*/}
+.header .hrm_flash{width:115px;height:76px;position:absolute;top:33px;right:0;overflow:hidden}
+.header .hrm_flash .flash_link{width:100%;height:100%;display:block;position:absolute;left:0;top:0;overflow:hidden;text-indent:-999px}
+.breadcrumb{color:#565656;height:40px;line-height:40px;border-bottom:2px #ff5d13 solid;margin-bottom:4px}
+.breadcrumb .b_list{display:inline;float:left}
+.breadcrumb .name{float:left}
+.breadcrumb .r_arrow{width:7px;height:13px;display:block;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/ -26px 0;filter:alpha(opacity=20);opacity:.2;margin:14px 8px 13px 8px;float:left}
+.r_pendant{width:50px;background:#fff;box-shadow:0 0 10px rgba(0,0,0,.1);padding-top:1px;position:fixed;_position:absolute;left:50%;margin-left:496px;bottom:16px;display:none;z-index:500}
+.r_pendant .rp_list{width:48px;margin-top:-1px;border:1px #e7e7e7 solid;overflow:hidden}
+.r_pendant .rp_icon{width:48px;height:48px;display:block;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/;filter:alpha(opacity=30);opacity:.3;float:right}
+.r_pendant .rp_dimensional_weixin{background-position:-152px -160px}
+.r_pendant .rp_dimensional_weibo{background-position:0 -264px}
+.r_pendant .rp_dimensional_code{background-position:-80px -160px}
+.r_pendant .rp_onlineservice{background-position:-104px -208px}
+.r_pendant .rp_back_top{background-position:-152px -208px}
+.r_pendant .rp_link{width:96px;height:48px;line-height:16px;display:block;margin-left:-48px}
+.r_pendant .rp_link .name{width:48px;height:40px;padding-top:8px;background:#a1a1a1;text-align:center;color:#fff;display:block;float:right}
+.r_pendant .rp_link:hover{text-decoration:none;margin-left:0}
+.r_pendant .rp_link:hover .name{text-decoration:none}
+.r_pendant .back_top{display:none}
+.footer{padding-top:10px;padding-bottom:30px;text-align:center;background:#f7f5f5;background:-moz-linear-gradient(top,#f7f5f5 0,#fefefe 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f7f5f5),color-stop(100%,#fefefe));background:-webkit-linear-gradient(top,#f7f5f5 0,#fefefe 100%);background:-o-linear-gradient(top,#f7f5f5 0,#fefefe 100%);background:-ms-linear-gradient(top,#f7f5f5 0,#fefefe 100%);background:linear-gradient(to bottom,#f7f5f5 0,#fefefe 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f5f5', endColorstr='#fefefe', GradientType=0);box-shadow:0 1px 0 #fff inset;border-top:1px #ddd solid}
+.footer .menu_box{height:22px;line-height:22px;margin-bottom:5px}
+.footer .menu_box a{color:#363636}
+.footer .menu_box a:hover{color:#ff5d13}
+.footer .menu_box .line{height:12px;margin:-3px 10px 0 15px;background:#c9c9c9}
+.footer .menu_list{display:inline}
+.footer .copyright{color:#363636;line-height:180%}
+.safe_level_bar{width:66px;height:10px;padding-left:1px;overflow:hidden;float:left}
+.safe_level_bar li{width:20px;height:8px;border:1px #c9c9c9 solid;margin-left:-1px;position:relative;background:#fff;overflow:hidden;z-index:1;float:left}
+.safe_level_bar .current{background:#ff8f45;border-color:#ff5d13;z-index:2}
+.good_tag,.hot_tag{display:none}
+.hot_gamelist .hot_tag{display:block}
+.hot_gamelist .title,.hot_gamelist .title a{color:#ff5d13}
+.good_gamelist .good_tag{display:block}
+.good_gamelist .title,.good_gamelist .title a{color:#3098d5}
+.current_drop_menu .drop_box{display:block}
+.an_drop_menu{height:32px;display:inline-block;vertical-align:middle;position:relative;z-index:1}
+.an_drop_menu .an_box{float:left}
+.an_drop_menu .an{width:86px;height:30px;line-height:30px;text-align:center;font-size:14px;padding:0 4px 0 2px;border-width:1px;border-style:solid;border-radius:2px;position:relative;z-index:9;display:block}
+.an_drop_menu .an .name{float:left}
+.an_drop_menu .an:hover{text-decoration:none}
+.an_drop_menu .an:hover .name{text-decoration:none}
+.an_drop_menu .an .start_icon_16{margin:7px 4px 0 4px;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);float:left}
+.an_drop_menu .drop_menu{width:26px;height:30px;line-height:30px;float:left;margin-left:-1px;z-index:10;position:relative}
+.an_drop_menu .arrow_box{width:25px;height:30px;line-height:30px;display:inline-block;border-width:1px;border-style:solid;border-top-right-radius:2px;border-bottom-right-radius:2px;position:relative;z-index:10}
+.an_drop_menu .b_arrow{position:absolute;top:14px;right:9px}
+.an_drop_menu .drop_box{width:118px;background:#fff;border:1px #d3d3d3 solid;white-space:nowrap;box-shadow:10px 10px 20px rgba(0,0,0,.14);right:-1px;top:31px;z-index:11;border-radius:2px;overflow-y:hidden}
+.an_drop_menu .drop_box .menu_list{margin-bottom:-1px}
+.an_drop_menu .drop_box .menu_list a{height:32px;line-height:32px;padding:0 12px 1px 12px;margin-top:1px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;display:block}
+.an_drop_menu .drop_box .menu_list a:hover{background-color:#f1f1f1;text-decoration:none}
+.an_drop_menu .menu_box{display:block;width:100%}
+.adm_w1 .an{width:120px}
+.adm_w1 .drop_box{width:152px}
+.minian_drop_menu{height:26px;display:inline-block;vertical-align:middle;position:relative;z-index:1}
+.minian_drop_menu .an_box{float:left}
+.minian_drop_menu .an{width:48px;height:24px;line-height:24px;font-size:12px;padding:0 8px 0 8px;border-width:1px;border-style:solid;border-radius:2px;position:relative;z-index:9;display:block}
+.minian_drop_menu .an:hover{text-decoration:none}
+.minian_drop_menu .an:hover .name{text-decoration:none}
+.minian_drop_menu .an .start_16_white{margin:4px 5px 0 5px;float:left}
+.minian_drop_menu .drop_menu{width:20px;height:24px;line-height:24px;float:left;margin-left:-1px;z-index:10;position:relative}
+.minian_drop_menu .arrow_box{width:19px;height:24px;line-height:24px;display:block;border-width:1px;border-style:solid;border-top-right-radius:2px;border-bottom-right-radius:2px;position:relative;z-index:10}
+.minian_drop_menu .b_arrow{position:absolute;top:11px;right:6px}
+.minian_drop_menu .drop_box{width:84px;background:#fff;border:1px #d3d3d3 solid;white-space:nowrap;box-shadow:10px 10px 20px rgba(0,0,0,.14);position:absolute;right:-1px;top:25px;z-index:11;border-radius:2px;overflow:hidden}
+.minian_drop_menu .drop_box .menu_list{margin-bottom:-1px}
+.minian_drop_menu .drop_box .menu_list a{height:26px;line-height:26px;padding:0 7px 1px 7px;margin-top:1px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;display:block}
+.minian_drop_menu .drop_box .menu_list a:hover{background:#f1f1f1;text-decoration:none}
+.filter_box{color:#565656;border-bottom:1px #ddd solid;position:relative;z-index:5;overflow:hidden}
+.filter_box .filter_list{padding-bottom:1px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;position:relative;margin-bottom:-1px;z-index:9}
+.filter_box .f_list{height:38px;line-height:38px;float:left}
+.filter_box .f_title{width:78px;text-align:right}
+.filter_box .fcb_item,.filter_box .item{height:24px;line-height:24px;color:#565656;white-space:nowrap;margin-top:7px;padding:0 8px;float:left}
+.filter_box .fcb_item:hover,.filter_box .item:hover{color:#ff5d13}
+.filter_box .current .fcb_item,.filter_box .current .item{background:#565656;color:#fff}
+.filter_box .current .fcb_item:hover,.filter_box .current .item:hover{color:#fff}
+.filter_box .current .bright{background:#ff5d13}
+.filter_box .f_listbox_parent{float:left;width:570px}
+.filter_box .f_childbox_parent{clear:both;background:#f6f6f6;margin-left:78px;margin-bottom:10px;border:1px #ddd solid;padding:6px}
+.filter_box .f_childbox_parent em{display:none}
+.filter_box .f_childbox_parent .fcb_list{display:inline;float:left}
+.filter_box .f_childbox_parent .fcb_item{margin:0}
+.filter_box .bj{width:100%;height:50px;display:block;position:absolute;left:0;bottom:0;background:#fffffe;background:-moz-linear-gradient(top,#fffffe 0,#f8f8f8 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fffffe),color-stop(100%,#f8f8f8));background:-webkit-linear-gradient(top,#fffffe 0,#f8f8f8 100%);background:-o-linear-gradient(top,#fffffe 0,#f8f8f8 100%);background:-ms-linear-gradient(top,#fffffe 0,#f8f8f8 100%);background:linear-gradient(to bottom,#fffffe 0,#f8f8f8 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffffe', endColorstr='#f8f8f8', GradientType=0);z-index:6}
+.filter_box .bright{color:#ff5d13}
+.filter_bar{height:38px;line-height:38px;background:#f1f1f1;padding-right:1px;color:#565656}
+.filter_bar .fb_l{float:left;padding-left:6px}
+.filter_bar .fb_r{float:right}
+.filter_bar .fb_cell{margin-right:6px;float:left;position:relative}
+.filter_bar .input_box .icon16{position:absolute;border:0;right:5px;top:11px;background-color:transparent;filter:alpha(opacity=30);opacity:.3;z-index:3}
+.filter_bar .tip_txt{padding-left:10px;height:38px;float:left}
+.filter_bar .input_w1{width:120px}
+.filter_bar .input_txt{height:18px;line-height:18px;padding:4px;border:0;margin:6px 0;box-shadow:none;position:relative}
+.filter_bar .fb_sort .s_menu{height:26px;line-height:26px;background:#fff;padding:0 6px 0 10px;float:left;margin:6px 0 0 1px}
+.filter_bar .fb_sort .s_name{color:#565656;float:left}
+.filter_bar .fb_sort .icon16{margin:5px 0;filter:alpha(opacity=40);opacity:.4;float:left}
+.filter_bar .fb_sort .asc_arrow{background-position:0 -160px}
+.filter_bar .fb_sort .desc_arrow{background-position:-16px -160px}
+.filter_bar .fb_sort .current{background:#3098d5}
+.filter_bar .fb_sort .current .s_name{color:#fff}
+.filter_bar .fb_sort .current .icon16{filter:alpha(enabled=false);opacity:1}
+.filter_bar .fb_sort .current .asc_arrow{background-position:0 -176px}
+.filter_bar .fb_sort .current .desc_arrow{background-position:-16px -176px}
+.filter_bar .minibutton_a{margin:6px 0 6px 0}
+table{border-collapse:collapse;border-spacing:0}
+.table_01{width:100%;color:#565656;margin-bottom:16px}
+.table_01 .error_tip{text-align:center}
+.table_01 .center{text-align:center}
+.table_01 .title_tr{background:#f1f1f1}
+.table_01 td,.table_01 th{border:1px #ddd solid;line-height:180%;padding:8px 10px}
+.table_01 .hover{background:#fbfbfb}
+.table_01 a{padding-left:5px}
+.table_01 .center{text-align:center}
+.pagebox{color:#565656;height:28px;overflow:hidden}
+.pagebox .p_list{display:inline;float:left}
+.pagebox a,.pagebox span{height:26px;line-height:26px;padding:0 10px;border:1px #ddd solid;margin-right:8px;color:#8d8d8d;float:left}
+.pagebox a{color:#3098d5}
+.pagebox a:hover{background:#f1f1f1;text-decoration:none;color:#565656}
+.pagebox .current a,.pagebox a.current{color:#fff;background:#3098d5;border-color:#3098d5}
+.mini_pagebox{height:24px}
+.mini_pagebox a,.mini_pagebox span{height:22px;line-height:22px;padding:0 6px;margin-right:4px}
+.mini_pagebox .final a,.mini_pagebox .first a{width:10px;text-indent:-999px;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/}
+.mini_pagebox .first a{background-position:-142px -116px}
+.mini_pagebox .first a:hover{background-position:-142px -138px}
+.mini_pagebox .final a{background-position:-164px -116px}
+.mini_pagebox .final a:hover{background-position:-164px -138px}
+.part_b{margin:0 16px}
+.part_b .title_box{height:36px;line-height:36px;padding:4px 0 2px 0;border-bottom:2px #ff5d13 solid}
+.part_b .title_box .title_name{font-size:14px;color:#ff5d13;font-weight:700;padding-right:5px;float:left}
+.part_b .title_box .help_16{margin:10px 5px 10px 0;float:left}
+.part_b .title_box .page_number{display:left}
+.part_b .title_box .last_next{float:left}
+.part_b .title_box .add_menu{color:#63aa38}
+.part_b .page_box,.tag_box_1 .page_box{float:right}
+.part_b .page_number,.tag_box_1 .page_number{color:#888;float:left;padding-right:6px}
+.part_b .page_number strong,.tag_box_1 .page_number strong{color:#ff5d13}
+.part_b .last_next,.tag_box_1 .last_next{width:34px;padding-left:1px;height:15px;margin-top:11px;float:left}
+.part_b .lr_arrow,.tag_box_1 .lr_arrow{width:15px;height:13px;border:1px #c9c9c9 solid;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/home-s7f7f25df1c.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/home-s7f7f25df1c.png*/;background-position:-15px -42px;float:left;margin-left:-1px;position:relative;z-index:1;filter:alpha(opacity=50);opacity:.5}
+.part_b .lr_arrow:hover,.tag_box_1 .lr_arrow:hover{z-index:2;filter:alpha(enabled=false);opacity:1}
+.part_b .right_arrow,.tag_box_1 .right_arrow{background-position:0 -42px}
+.part_b .r_menu,.tag_box_1 .r_menu{float:right;color:#888}
+.part_b .r_menu:hover,.tag_box_1 .r_menu:hover{color:#ff5d13}
+.part_b .r_menu .icon16,.tag_box_1 .r_menu .icon16{float:left;margin:10px 5px 10px 0}
+.wall_box{position:absolute;width:100%;height:910px;overflow:hidden;background-repeat:no-repeat;background-position:center top;left:0;top:33px;z-index:0;display:none}
+.wall_box .link{width:100%;height:100%;display:block}
+.wall_box .link em{height:100%;width:1076px;display:block;background-repeat:no-repeat;position:absolute;top:0}
+.wall_box .link .bj_l{left:50%;margin-left:-959px;background-position:left top}
+.wall_box .link .bj_r{right:50%;margin-right:-959px;background-position:right top}
+.wall_box .cose{width:16px;height:16px;background:#7e7e7e url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-s625f6fcc7a.png*/ -103px -16px;border:1px #6a6a6a solid;display:block;position:absolute;top:20px;right:20px}
+.wall_box .cose:hover{background-color:#ff5d13;border-color:#e13f00}
+.cnzz_box{display:none}
+.dd_tip{height:30px;padding-top:10px;float:left;width:200px;color:#ff4a4e;font-weight:700;white-space:nowrap}

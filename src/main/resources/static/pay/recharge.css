@@ -1,0 +1,160 @@
+﻿body{background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/bj.jpg.png")/*tpa=http://www.98878yx.cn/images/bj.jpg*/;background-position:center top;background-repeat:repeat-y}
+.recharge_header{height:76px;background:#fff;border-bottom:4px #eb363a solid}
+.recharge_header .c_w{width:980px;height:41px;padding:19px 0 16px 0; margin:0 auto}
+.recharge_header .logo{width:300px;height:50px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/logo.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/logo.png*/ no-repeat;text-indent:-999px;overflow:hidden;margin-top:-4px;float:left;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="//pic.my4399.com/newWeb/images/http://www.grantion.cn/pay/logo.png")}
+.recharge_header .line{height:32px;position:absolute;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/y_dotted.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/y_dotted.png*/ -1px 0 repeat-y;filter:alpha(Opacity=30);opacity:.3;left:0;top:0}
+.recharge_header .page_title{height:34px;line-height:34px;font-size:20px;color:#565656;font-weight:400;padding:0 0 0 20px;margin:7px 0 0 20px;position:relative;float:left}
+.recharge_header .login_info{width:300px;height:20px;line-height:20px;margin-top:20px;text-align:right;color:#565656;float:right}
+.recharge_header .login_info a{padding:0 6px}
+.recharge_page{width:75%;overflow:hidden; margin:0 auto}
+.icon_nncard_16{background-position:0 -32px}
+.current .icon_nncard_16,a:hover .icon_nncard_16{background-position:0 -48px}
+.icon_hand_16{background-position:0 -64px}
+.current .icon_hand_16,a:hover .icon_hand_16{background-position:0 -80px}
+.icon_web_16{background-position:0 -192px}
+.current .icon_web_16,a:hover .icon_web_16{background-position:0 -208px}
+.icon_vpay_16{background-position:-16px -160px}
+.current .icon_vpay_16,a:hover .icon_vpay_16{background-position:-16px -176px}
+.icon_ebilling_16{background-position:-16px -32px}
+.current .icon_ebilling_16,a:hover .icon_ebilling_16{background-position:-16px -48px}
+.icon_ump_16{background-position:0 -160px}
+.current .icon_ump_16,a:hover .icon_ump_16{background-position:0 -176px}
+.icon_jd_16{background-position:-16px -64px}
+.current .icon_jd_16,a:hover .icon_jd_16{background-position:-16px -80px}
+.icon_zfb_16{background-position:0 -224px}
+.icon_alipay_qrcode_web_16{background-position:0 -224px}
+.current .icon_zfb_16,a:hover .icon_zfb_16{background-position:0 -240px}
+.icon_4399card_16{background-position:-16px -224px}
+.current .icon_4399card_16,a:hover .icon_4399card_16{background-position:-16px -240px}
+.icon_cft_quick_16{background-position:0 -128px}
+.current .icon_cft_quick_16,a:hover .icon_cft_quick_16{background-position:0 -144px}
+.icon_kq_16{background-position:-16px -96px}
+.current .icon_kq_16,a:hover .icon_kq_16{background-position:-16px -112px}
+.icon_weixin_16{background-position:-16px -192px}
+.current .icon_weixin_16,a:hover .icon_weixin_16{background-position:-16px -208px}
+.icon_jd_quick_pay_16{background-position:0 -96px}
+.current .icon_jd_quick_pay_16,a:hover .icon_jd_quick_pay_16{background-position:0 -112px}
+.icon_qpay_16{background-position:-16px -128px}
+.current .icon_qpay_16,a:hover .icon_qpay_16{background-position:-16px -144px}
+.rec_side{width:177px;float:left}
+.rec_side .menu_list{height:54px;line-height:54px;font-size:14px;margin-bottom:1px}
+.rec_side .menu_list .name{float:left;position:relative;height: 54px;line-height: 54px;}
+.rec_side .menu_list .icon16{margin:19px 4px 19px 0;background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/recharge-s168dc658a3.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/recharge-s168dc658a3.png*/;float:left}
+.rec_side .menu_list .bubbleIcon{width:28px;height:28px;background-repeat:no-repeat;background-position:left center;display:block;overflow:hidden;right:-32px;top:14px;position:absolute}
+.rec_side .menu_list .bubbleIcon_new{background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/bubblenew_gif.gif")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/bubblenew_gif.gif*/}
+.rec_side .menu_list .bubbleIcon_recommend{background-image:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/bubblerecommend_gif.gif")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/bubblerecommend_gif.gif*/}
+.rec_side .menu_list:first-child{height:73px}
+.rec_side .menu_list:first-child .menu{padding-top:20px}
+.rec_side .first-child{height:73px}
+.rec_side .first-child .menu{padding-top:20px}
+.rec_side .menu{width:168px;height:54px;color:#565656;padding-left:10px;background-image:url("side_http://www.grantion.cn/pay/bj.jpg.png")/*tpa=http://www.98878yx.cn/images/side_bj.jpg*/;background-repeat:no-repeat;background-position:left bottom;float:left}
+.rec_side .menu:hover{color:#ff5d13;background-position:-178px bottom}
+.rec_side .current{margin-right:-1px;background:#fff;border-color:#ddd;position:relative}
+.rec_side .current .menu{color:#ff5d13;padding-right:1px;background-position:-356px bottom}
+.r ec_side .current .menu:hover{background-position:-356px bottom}
+.rec_side .rec_link{width:170px;height:80px;padding-right:7px;display:block;overflow:hidden}
+.rec_side .rec_link img{width:170px;height:80px}
+.main_cc{width:740px;min-height:574px;padding:30px 20px 2000px 20px;margin-bottom:-1980px;background:#fff;border-left:1px #e2e2e2 solid;box-shadow:-1px -10px 1px rgba(0,0,0,.05);float:left}
+.tag_menu_1{height:38px;line-height:38px;border-bottom:1px #d8d8d8 solid;padding:0 0 0 1px;margin-bottom:20px}
+.tag_menu_1 .menu_list{display:inline;float:left}
+.tag_menu_1 .menu{height:37px;line-height:37px;padding:0 18px;border:1px #d8d8d8 solid;background-color:#f6f6f6;color:#565656;border-bottom:0;margin-left:-1px;position:relative;float:left}
+.tag_menu_1 .current{background:#fff;margin-bottom:-1px;padding-bottom:1px}
+.table_box{border:1px #d8d8d8 solid;border-top:0;padding:16px}
+.voucher_box{padding-left:98px}
+.voucher_box .voucher_number{cursor:pointer;float:left}
+.voucher_box .tag_menu_1{height:32px;line-height:32px;margin-bottom:0}
+.voucher_box .tag_menu_1 .menu{height:31px;line-height:31px}
+.voucher_table_box{width:608px;max-height:165px;overflow:hidden;overflow-y:auto}
+.voucher_table{width:100%}
+.voucher_table .title_tr{background-color:#f6f6f6}
+.voucher_table td,.voucher_table th{height:32px;line-height:32px;border-bottom:1px #f6f6f6 solid;padding:0 10px}
+.qpayQrCodePart,.wechatQrCodePart,.alipayQrCodePart{height:298px;position:relative;padding:50px 0;margin-bottom:16px}
+.qpayPayStep02,.wechatPayStep02,.aliPayStep02{display:none}
+.qpayQrCode,.wechatQrCode,.alipayQrCode{width:218px;height:298px;background:#fff;position:absolute;left:50%;top:50px;margin-left:-109px;z-index:2}
+.qpayQrCode__box,.wechatQrCode__box,.alipayQrCode__box{border:1px #e2e2e2 solid;padding:10px;margin-bottom:16px}
+.qpayQrCode__codeImg,.wechatQrCode__codeImg,.alipayQrCode__codeImg{width:196px;height:196px}
+.qpayQrCode__bHelp,.wechatQrCode__bHelp,.alipayQrCode__bHelp{width:158px;height:46px;padding:9px 0 9px 60px;line-height:22px;background:#63aa38;font-size:12px;color:#fff;position:relative}
+.qpayQrCode__sweepIcon32,.wechatQrCode__sweepIcon32,.alipayQrCode__sweepIcon32{position:absolute;left:16px;top:16px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/recharge-s168dc658a3.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/recharge-s168dc658a3.png*/ 0 0}
+.qpayQrCode__rHelpImg,.wechatQrCode__rHelpImg{width:218px;height:298px}
+.qpayQrCode__rHelp,.wechatQrCode__rHelp,.alipayQrCode__rHelp{width:218px;height:298px;position:absolute;left:50%;top:50px;margin-left:-109px;z-index:1;filter:alpha(Opacity=0);opacity:0}
+.qpayQrCode__bHelp{background:#005c99}
+.alipayQrCode__bHelp{background:#1e81d0;}
+.alipayQrCodeTips{position:absolute;top:362px;left:0;width:100%;font-size:14px;text-align:center;color:#565656;}
+.alipayQrCodeTips__link{color:#7b7a80;text-decoration:underline;}
+.alipayQrCodeTips__link--2{color:#185ebb;}
+.big_form .fill_money_order{float:right;margin-right:0}
+.fmo_tip{height:40px;line-height:40px;float:right;padding-right:10px;color:#929292}
+.table_tip{color:#929292}
+.table_01 .r_o_menubox{float:right}
+.table_01 .r_o_menubox a{padding:0 5px}
+.table_01 .r_o_menubox li{display:inline}
+.recharge_explain{color:#565656;line-height:180%;padding-bottom:20px}
+.pop_re_c{text-align:center;color:#ff5d13;padding-top:30px}
+.pop_re_c .title{font-size:20px;padding-bottom:10px}
+.pop_re_c .tip_txt{line-height:180%;padding-bottom:10px}
+.pop_re_c .button_box{background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ repeat-x;padding:20px 0}
+.pop_re_c .button_box .button_a{height:38px;line-height:38px;float:none}
+.results_hint_1{padding:50px 0 100px 0;text-align:center;color:#565656}
+.results_hint_1 .icon48{margin-bottom:20px}
+.results_hint_1 .title{height:30px;line-height:30px;font-size:20px;font-weight:400;padding-bottom:10px}
+.results_hint_1 .tip_txt{line-height:180%}
+.results_hint_2{padding:24px 0 25px 30px;background:url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/http://www.grantion.cn/pay/x_dotted_line.png*/ left bottom repeat-x;margin-bottom:20px}
+.results_hint_2 .icon48{float:left}
+.results_hint_2 .title_tip{padding-left:20px;float:left}
+.results_hint_2 .title{height:28px;line-height:28px;font-size:20px}
+.results_hint_2 .tip_txt{height:20px;line-height:20px}
+.results_win{color:#458c1a}
+.results_win .tip_txt{color:#59a02e}
+.results_fail{color:#ff4a4e}
+.results_fail .tip_txt{color:#ff5e62}
+.rlquery{padding-bottom:20px}
+.tenpay_s_title{color:#565656;padding:13px 0}
+.tenpay_s_title .back{float:left}
+.tenpay_s_title .pay_provider{float:right;color:#a6a6a6}
+.r_pay_tip{text-align:center;color:#565656;line-height:180%;padding:30px 0}
+.r_pay_tip .icon48{margin:0 auto;display:block}
+.r_pay_tip .title{font-size:20px;padding:20px 0 5px 0}
+.r_pay_tip .describe{padding-bottom:10px}
+.r_pay_tip .button_a{float:none;margin:0 auto}
+.bottom_tip{color:#565656;line-height:180%;border:1px #ececec solid;background-color:#fbfbfb;padding:14px}
+.f_banner{height:245px;background-color:#7e7e7e;box-shadow:0 3px 3px 0 rgba(0,0,0,.05) inset,0 -3px 3px 0 rgba(0,0,0,.05) inset;color:#565656;line-height:180%;border:1px #ececec solid;padding:14px}
+.f_banner .c_w{width:960px;height:275px; margin:0 auto}
+.f_banner dl{width:300px;padding-left:20px;padding-top:16px;float:left;color:#fff;margin-top:20px;position:relative}
+.f_banner dd{padding-bottom:10px}
+.f_banner dt{font-size:18px;padding-bottom:8px}
+.f_banner li{height:30px;line-height:30px}
+.f_banner .article_list a{color:#fff}
+.f_banner .line{height:210px;background:#6a6a6a;border-left:1px #8d8d8d solid;position:absolute;right:10px;top:0}
+.f_banner .service_button{height:28px;line-height:28px;background-color:#fff;padding:0 8px 0 8px;border-radius:2px;color:#565656;display:inline-block;margin-top:4px}
+.f_banner .service_button .icon16{margin:6px 6px 6px 0;float:left}
+.f_banner .service_button .name{float:left}
+.service .tel{font-size:16px}
+.service .working_time{filter:alpha(Opacity=80);opacity:.8}
+.rec_side .menu_list .bubbleIcon { top: 17px; right: -55px; width: 33px; height: 18px; }
+.rec_side .menu_list .bubbleIcon_recommend { background: url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/rc.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/rc.png*/; }
+/* 追加至样式后面 */
+.pay_menu {
+    padding-right: 35px;
+}
+
+.qpay {
+    position: absolute;
+    top: 11px;
+    right: 8px;
+    width: 36px;
+    height: 16px;
+    font: 12px/16px '宋体';
+    text-align: center;
+    color: #d72226;
+    background: #fffc11;
+    border-radius: 3px;
+}
+
+.icon-lj{
+    position: relative;
+    top: -2px;
+    width: 26px;
+    height: 36px;
+    background: url("http://www.grantion.cn/pay/http://www.grantion.cn/pay/icon-lj.png")/*tpa=http://www.98878yx.cn/images/http://www.grantion.cn/pay/icon-lj.png*/;
+    float: right;
+}

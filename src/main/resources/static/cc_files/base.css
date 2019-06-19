@@ -1,0 +1,84 @@
+﻿html,body{ color:#666;background:#fff;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { margin:0;padding:0; }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block; }
+audio,canvas,video { display: inline-block;*display: inline;*zoom: 1; }
+body,button,input,select,textarea{ font: 12px/1.5 Arial, "Microsoft Yahei"; }
+input,select,textarea{ font-size:100%; }
+th{ text-align:inherit; }
+fieldset,img{ border:0; }
+iframe{ display:block; }
+abbr,acronym{ border:0;font-variant:normal; }
+del { text-decoration:line-through; }
+address,caption,cite,code,dfn,em,th,var { font-style:normal; font-weight:500; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:500; }
+q:before,q:after { content:''; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+a:hover { text-decoration:none; }
+ins,a { text-decoration:none; color:#666}
+.clear:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
+.clear { zoom:1; }
+body .hide { display:none; }
+.left,.right { display:inline; }
+.left { float:left; }
+.right { float:right; }
+.mb20{margin-bottom:20px}
+.mb10{margin-bottom:10px}
+.mb5{margin-bottom:5px}
+
+/*for 后台编辑器 */
+#tinymce {padding:10px;font-size:14px}
+#tinymce a{color:#0099E0;}
+#tinymce h2{font-size:32px;margin-bottom:0.3em}
+#tinymce h3{font-size:26px;margin-bottom:0.3em}
+#tinymce h4{font-size:22px;margin-bottom:0.3em}
+#tinymce p{margin-bottom:1em;font-size:14px}
+#tinymce div{margin-bottom:1em;font-size:14px}
+#tinymce img{max-width:100%;height:auto}
+#tinymce em{font-style:italic}
+#tinymce pre { border-left: 3px solid #DBDBDB; padding: 10px; background-color:#F8F8F8; margin-bottom:1em;font-size:14px;color:#666;white-space:normal;font: inherit;}
+#tinymce blockquote { border: 1px solid #DBDBDB; padding: 10px 12px; background-color:#F8F8F8; margin-bottom:1em; font-size:14px;color:#666;}
+#tinymce blockquote p,#tinymce blockquote div{margin-bottom:0}
+#tinymce table{margin-bottom:1em;width:100%}
+#tinymce table p,#tinymce table div{margin-bottom:0}
+#tinymce table th{background-color:#E8F6FF!important;} 
+#tinymce table caption {text-align:center;font-size:14px;font-weight:bold;line-height:1.8em}
+#tinymce ul{list-style-type:disc;padding:0 0 0 10px} 
+#tinymce ul li{margin:0 0 0 10px}
+#tinymce ol{list-style-type:decimal;}
+#tinymce ol li{margin:0 0 0 10px;padding:0 0 0 10px}
+#tinymce table.tableforshow{border:0!important;border-collapse:collapse!important;border-bottom:1px solid #CCCCCC!important;border-right:1px solid #CCCCCC!important;margin-bottom:14px!important;width:100%;font:inherit}
+#tinymce table.tableforshow th,#tinymce table.tableforshow td{border:0!important;border-left:1px solid #CCCCCC!important;border-top:1px solid #CCCCCC!important;color:#333333;padding:0.5em!important;margin:0!important;font:inherit}
+#tinymce table.tableforshow th{background-color:#E8F6FF!important;} 
+#tinymce table.tableforshow tr:hover{background-color:#F2F7FB!important;transition:all 0.6s} 
+#tinymce table.tableforshow caption {text-align:center;font-size:14px;font-weight:bold;line-height:1.8em}
+#tinymce table.ghbs tr:nth-child(odd){ background: #eee; }
+#tinymce table.ghbs tr:nth-child(even){ background: #fff; }
+/*for 编辑器预览，前台模板也可以用*/
+#content {padding:10px;font-size:14px}
+#content a{color:#0099E0;}
+#content h2{font-size:32px;margin-bottom:0.3em}
+#content h3{font-size:26px;margin-bottom:0.3em}
+#content h4{font-size:22px;margin-bottom:0.3em}
+#content p{margin-bottom:1em;font-size:14px}
+#content div{margin-bottom:1em;font-size:14px}
+#content img{max-width:100%;height:auto}
+#content em{font-style:italic}
+#content ul{list-style-type:disc;padding:0 0 0 10px}
+#content ul li{margin:0 0 0 10px;}
+#content ol{list-style-type:decimal;padding:0 0 0 10px}
+#content ol li{margin:0 0 0 10px}
+#content pre { border-left: 3px solid #DBDBDB; padding: 10px; background-color:#F8F8F8; margin-bottom:1em;font-size:14px;color:#666;white-space:normal;font: inherit; }
+#content blockquote { border: 1px solid #DBDBDB;  padding: 10px 12px;background-color:#F8F8F8; margin-bottom:1em; font-size:14px;color:#666;}
+#content blockquote p,#content blockquote div{margin-bottom:0}
+#content table.tableforshow{border:0!important;border-collapse:collapse!important;border-bottom:1px solid #CCCCCC!important;border-right:1px solid #CCCCCC!important;margin-bottom:14px!important;width:100%;font:inherit}
+#content table.tableforshow p,#content table.tableforshow div{margin-bottom:0}
+#content table.tableforshow th,#content table.tableforshow td{border:0!important;border-left:1px solid #CCCCCC!important;border-top:1px solid #CCCCCC!important;color:#333333;padding:0.5em!important;margin:0!important;font:inherit}
+#content table.tableforshow th{background-color:#E8F6FF!important;}  
+#content table.tableforshow tr:hover{background-color:#F2F7FB!important;transition:all 0.6s} 
+#content table.tableforshow caption {text-align:center;font-size:14px;font-weight:bold;line-height:1.8em}
+#content table.ghbs tr:nth-child(odd){ background: #f7f7f7; }
+#content table.ghbs tr:nth-child(even){ background: #fff; }

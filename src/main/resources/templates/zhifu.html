@@ -1,0 +1,900 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0076)file:///F:/w%E7%BD%91%E7%AB%99/%E8%A7%89%E6%B2%83/98878yx/98878yx/pay -->
+<html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>襄阳喆熙网络技术有限公司 - 支付中心</title>
+    <link rel="stylesheet" href="pay/public1.css" tppabs="/css/public1.css">
+    <link rel="stylesheet" href="pay/recharge.css" tppabs="/css/recharge.css">
+    <link href="pay/css.css" tppabs="/css/css.css" type="text/css" rel="stylesheet">
+    <!--[if IE 6]>
+
+    <script type="text/javascript" src="http://www.grantion.cn/dd_belatedpng_0.0.8a.js"
+            tppabs="/js/http://www.grantion.cn/dd_belatedpng_0.0.8a.js"></script>
+
+    <script>
+
+        DD_belatedPNG.fix('*, img,background');
+
+    </script>
+
+    <![endif]-->
+    <script type="text/javascript" src="pay/jquery.min.js" tppabs="/js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="pay/jquery.validate.js" tppabs="/js/jquery.validate.js"></script>
+
+    <script type="text/javascript" src="pay/jquery.validate.custom.js" tppabs="/js/jquery.validate.custom.js"></script>
+
+    <script type="text/javascript" src="pay/jquery.metadata.js" tppabs="/js/jquery.metadata.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#payform").validate();
+
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+        $(function () {
+
+            $('#gameid').change(function () {
+
+                //获取父类的id
+
+                var $id = $('#gameid').val();
+
+                if ($id == 5) {
+
+                    window.location.href = "/Pay/gzxxx";
+
+                } else if ($id == 8) {
+
+                    window.location.href = "/Pay/sgzdz";
+
+                } else {
+
+                }
+
+                //通过ajax进行传值
+
+                $.getJSON('/Pay/linkage', {id: $id}, function (data) {
+
+                    //回调函数
+
+                    if (data.status == 1) {
+
+                        $('#serverid option[value!=""]').remove();
+
+                        for (var i = 0; i <= data.data.length; i++) {
+
+                            var option = "<option value=" + data.data[i].id + ">" + data.data[i].name + "</option>";
+
+                            $(option).appendTo('#serverid');
+
+                        }
+
+                    }
+
+                });
+
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+<div class="recharge_header">
+    <div class="c_w fixed">
+
+        <h1 class="page_title">
+            <span class="title">充值中心</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <span class="title"><a href="index">返回首页</a></span>
+            <em class="line"></em>
+        </h1>
+
+
+
+        <div class="login_info nolog">
+            <div th:if="${session.user} != null" >
+                <a href="#" class="btn user-reg" th:text="${session.user.phone}"></a>
+            </div>
+            <div th:if="${session.user} == null" >
+                <a href="/zhuce" class="btn user-reg">注册</a>
+                <a href="/denglu" class="btn user-login">登录</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="recharge_page fixed" id="main">
+
+
+    <div class="rec_side">
+
+
+    </div>
+    <div class="main_cc">
+        <div id="TQDiv">
+            <div class="ContCz">
+
+                <form name="payform" id="payform" method="post"
+                      action="file:///F:/w%E7%BD%91%E7%AB%99/%E8%A7%89%E6%B2%83/98878yx/98878yx/pay">
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table3"
+                           style="margin-top:10px;">
+
+                        <tbody>
+                        <tr>
+
+                            <td width="94" align="right" style="font-size:14px;
+
+padding-right:10px;">用户名：
+                            </td>
+
+                            <td width="702" align="left" style="line-
+
+height:30px;"><input name="account" type="text" class="text1 
+
+{required:true,remote:&#39;/index.php/Pay/check&#39;,messages:{required:&#39; 请输入
+
+用户名&#39;,remote:&#39; 用户名不存在&#39;}}" id="account" value="" style="color:#000"></td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td width="94" align="right" style="font-size:14px;
+
+padding-right:10px;">密码：
+                            </td>
+
+                            <td width="702" align="left" style="line-
+
+height:30px;"><input name="account" type="text" class="text1 
+
+{required:true,remote:&#39;/index.php/Pay/check&#39;,messages:{required:&#39; 请输入
+
+密码&#39;,remote:&#39; 密码不存在&#39;}}" id="account" value="" style="color:#000"></td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td width="94" align="right" style="font-size:14px;
+
+padding:0 10px 15px 0;">充值金额：
+                            </td>
+
+                            <td width="702" align="left" style="line-height:30px;
+
+padding-bottom:15px;"><input name="amountoption" id="amountoption" type="radio" value="10"
+                             onclick="selectAmount(this.value,&#39;none&#39;)">
+
+                                1元
+
+                                <input name="amountoption" type="radio" id="amountoption"
+                                       onclick="selectAmount(this.value,&#39;none&#39;)" value="30" checked="checked">
+
+                                5元
+
+                                <input name="amountoption" id="amountoption" type="radio" value="100"
+                                       onclick="selectAmount(this.value,&#39;none&#39;)">
+
+                                10元
+
+
+                                <label id="amounttext" style="display:none">
+
+                                    <input name="amount" type="text"
+                                           class="{required:true,amount:true,messages:{required:&#39; 请输入充值金额&#39;}}"
+                                           id="amount" value="30" size="6" maxlength="6"
+                                           onkeyup="value=value.replace(/[^0-9]/g,&#39;0&#39;);">
+
+                                    元</label>
+
+
+                            </td>
+
+
+                        </tr>
+
+                        <tr>
+                            <td align="right" style="font-size:14px;
+
+padding:0 10px 15px 0;"></td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td align="right" style="font-size:14px; padding:0 10px
+
+15px 0;">充值方式：
+                            </td>
+
+                            <td align="left" style="line-height:30px; padding-
+
+bottom:15px;">
+                                <div class="pays">
+
+                                    <ul id="tab">
+
+                                        <li class="fli">网上银行</li>
+
+
+                                        <!--  <li style="cursor:pointer">汇付宝支付
+
+                            </li>-->
+
+                                    </ul>
+
+                                    <em generated="true" htmlfor="payid" class="error"></em>
+
+
+                                </div>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td colspan="2" valign="top" style="font-size:14px; ">
+
+                                <div id="tab_con">
+
+                                    <!--	支付宝-->
+
+                                    <div class="fdiv">
+
+                                        <ul>
+
+                                            <!-- 网银开始 -->
+
+                                            <li style="float:left; margin-left:10px; margin-
+
+top:12px;">
+
+                                                <input name="payid" id="ICBC-NET-B2C " type="radio" value="1"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="ICBC-NET-B2C _label" for="ICBC-
+
+NET-B2C " align="absmiddle" class="ICBC-NET-B2C ">
+
+                                                    <img src="pay/gongshang.gif" tppabs="/picture/gongshang.gif"
+                                                         align="absmiddle" id="ICBC-NET-B2C _label" for="ICBC-NET-B2C "
+                                                         name="ICBC-NET-B2C " class="ICBC-NET-B2C ">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="CMBCHINA-NET-B2C" type="radio" value="2"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="CMBCHINA-NET-B2C_label" for="CMBCHINA-NET-B2C"
+                                                       align="absmiddle" class="CMBCHINA-NET-B2C">
+
+                                                    <img src="pay/zhaohang.gif" tppabs="/picture/zhaohang.gif"
+                                                         align="absmiddle" id="CMBCHINA-NET-B2C_label"
+                                                         for="CMBCHINA-NET-B2C" name="CMBCHINA-NET-B2C"
+                                                         class="CMBCHINA-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="ABC-NET-B2C" type="radio" value="3"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="ABC-NET-B2C_label" for="ABC-
+
+NET-B2C" align="absmiddle" class="ABC-NET-B2C">
+
+                                                    <img src="pay/nongye.gif" tppabs="/picture/nongye.gif"
+                                                         align="absmiddle" id="ABC-NET-B2C_label" for="ABC-NET-B2C"
+                                                         name="ABC-NET-B2C" class="ABC-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="CCB-NET-B2C" type="radio" value="4"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="CCB-NET-B2C_label" for="CCB-
+
+NET-B2C" align="absmiddle" class="CCB-NET-B2C">
+
+                                                    <img src="pay/jianshe.gif" tppabs="/picture/jianshe.gif"
+                                                         align="absmiddle" id="CCB-NET-B2C_label" for="CCB-NET-B2C"
+                                                         name="CCB-NET-B2C" class="CCB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="BCCB-NET-B2C" type="radio" value="5"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="BCCB-NET-B2C_label" for="BCCB-
+
+NET-B2C" align="absmiddle" class="BCCB-NET-B2C">
+
+                                                    <img src="pay/beijing.gif" tppabs="/picture/beijing.gif"
+                                                         align="absmiddle" id="BCCB-NET-B2C_label" for="BCCB-NET-B2C"
+                                                         name="BCCB-NET-B2C" class="BCCB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="BOCO-NET-B2C" type="radio" value="6"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="BOCO-NET-B2C_label" for="BOCO-
+
+NET-B2C" align="absmiddle" class="BOCO-NET-B2C">
+
+                                                    <img src="pay/jiaotong.gif" tppabs="/picture/jiaotong.gif"
+                                                         align="absmiddle" id="BOCO-NET-B2C_label" for="BOCO-NET-B2C"
+                                                         name="BOCO-NET-B2C" class="BOCO-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="CIB-NET-B2C" type="radio" value="7"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="CIB-NET-B2C_label" for="CIB-
+
+NET-B2C" align="absmiddle" class="CIB-NET-B2C">
+
+                                                    <img src="pay/xingye.gif" tppabs="/picture/xingye.gif"
+                                                         align="absmiddle" id="CIB-NET-B2C_label" for="CIB-NET-B2C"
+                                                         name="CIB-NET-B2C" class="CIB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="NJCB-NET-B2C" type="radio" value="8"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="NJCB-NET-B2C_label" for="NJCB-
+
+NET-B2C" align="absmiddle" class="NJCB-NET-B2C">
+
+                                                    <img src="pay/nanjing.gif" tppabs="/picture/nanjing.gif"
+                                                         align="absmiddle" id="NJCB-NET-B2C_label" for="NJCB-NET-B2C"
+                                                         name="NJCB-NET-B2C" class="NJCB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="CMBC-NET-B2C" type="radio" value="9"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="CMBC-NET-B2C_label" for="CMBC-
+
+NET-B2C" align="absmiddle" class="CMBC-NET-B2C">
+
+                                                    <img src="pay/minsheng.gif" tppabs="/picture/minsheng.gif"
+                                                         align="absmiddle" id="CMBC-NET-B2C_label" for="CMBC-NET-B2C"
+                                                         name="CMBC-NET-B2C" class="CMBC-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="CEB-NET-B2C" type="radio" value="10"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="CEB-NET-B2C_label" for="CEB-
+
+NET-B2C" align="absmiddle" class="CEB-NET-B2C">
+
+                                                    <img src="pay/guangda.gif" tppabs="/picture/guangda.gif"
+                                                         align="absmiddle" id="CEB-NET-B2C_label" for="CEB-NET-B2C"
+                                                         name="CEB-NET-B2C" class="CEB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="BOC-NET-B2C" type="radio" value="11"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="BOC-NET-B2C_label" for="BOC-
+
+NET-B2C" align="absmiddle" class="BOC-NET-B2C">
+
+                                                    <img src="pay/zhongguo.gif" tppabs="/picture/zhongguo.gif"
+                                                         align="absmiddle" id="BOC-NET-B2C_label" for="BOC-NET-B2C"
+                                                         name="BOC-NET-B2C" class="BOC-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="PINGANBANK-NET" type="radio" value="12"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="PINGANBANK-NET_label" for="PINGANBANK-NET" align="absmiddle"
+                                                       class="PINGANBANK-NET">
+
+                                                    <img src="pay/pingan.gif" tppabs="/picture/pingan.gif"
+                                                         align="absmiddle" id="PINGANBANK-NET_label"
+                                                         for="PINGANBANK-NET" name="PINGANBANK-NET"
+                                                         class="PINGANBANK-NET">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="CBHB-NET-B2C" type="radio" value="13"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="CBHB-NET-B2C_label" for="CBHB-
+
+NET-B2C" align="absmiddle" class="CBHB-NET-B2C">
+
+                                                    <img src="pay/buohai.gif" tppabs="/picture/buohai.gif"
+                                                         align="absmiddle" id="CBHB-NET-B2C_label" for="CBHB-NET-B2C"
+                                                         name="CBHB-NET-B2C" class="CBHB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="HKBEA-NET-B2C" type="radio" value="14"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="HKBEA-NET-B2C_label" for="HKBEA-NET-B2C" align="absmiddle"
+                                                       class="HKBEA-NET-B2C">
+
+                                                    <img src="pay/dongya.gif" tppabs="/picture/dongya.gif"
+                                                         align="absmiddle" id="HKBEA-NET-B2C_label" for="HKBEA-NET-B2C"
+                                                         name="HKBEA-NET-B2C" class="HKBEA-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="NBCB-NET-B2C" type="radio" value="15"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="NBCB-NET-B2C_label" for="NBCB-
+
+NET-B2C" align="absmiddle" class="NBCB-NET-B2C">
+
+                                                    <img src="pay/ningbo.gif" tppabs="/picture/ningbo.gif"
+                                                         align="absmiddle" id="NBCB-NET-B2C_label" for="NBCB-NET-B2C"
+                                                         name="NBCB-NET-B2C" class="NBCB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="ECITIC-NET-B2C" type="radio" value="16"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="ECITIC-NET-B2C_label" for="ECITIC-NET-B2C" align="absmiddle"
+                                                       class="ECITIC-NET-B2C">
+
+                                                    <img src="pay/zhongxin.gif" tppabs="/picture/zhongxin.gif"
+                                                         align="absmiddle" id="ECITIC-NET-B2C_label"
+                                                         for="ECITIC-NET-B2C" name="ECITIC-NET-B2C"
+                                                         class="ECITIC-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="SDB-NET-B2C" type="radio" value="17"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="SDB-NET-B2C_label" for="SDB-
+
+NET-B2C" align="absmiddle" class="SDB-NET-B2C">
+
+                                                    <img src="pay/shenfa.gif" tppabs="/picture/shenfa.gif"
+                                                         align="absmiddle" id="SDB-NET-B2C_label" for="SDB-NET-B2C"
+                                                         name="SDB-NET-B2C" class="SDB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="GDB-NET-B2C" type="radio" value="18"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="GDB-NET-B2C_label" for="GDB-
+
+NET-B2C" align="absmiddle" class="GDB-NET-B2C">
+
+                                                    <img src="pay/guangfa.gif" tppabs="/picture/guangfa.gif"
+                                                         align="absmiddle" id="GDB-NET-B2C_label" for="GDB-NET-B2C"
+                                                         name="GDB-NET-B2C" class="GDB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="SHB-NET-B2C" type="radio" value="19"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="SHB-NET-B2C_label" for="SHB-
+
+NET-B2C" align="absmiddle" class="SHB-NET-B2C">
+
+                                                    <img src="pay/shanghaibank.gif" tppabs="/picture/shanghaibank.gif"
+                                                         align="absmiddle" id="SHB-NET-B2C_label" for="SHB-NET-B2C"
+                                                         name="SHB-NET-B2C" class="SHB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="SPDB-NET-B2C" type="radio" value="20"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="SPDB-NET-B2C_label" for="SPDB-
+
+NET-B2C" align="absmiddle" class="SPDB-NET-B2C">
+
+                                                    <img src="pay/shangpufa.gif" tppabs="/picture/shangpufa.gif"
+                                                         align="absmiddle" id="SPDB-NET-B2C_label" for="SPDB-NET-B2C"
+                                                         name="SPDB-NET-B2C" class="SPDB-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="POST-NET-B2C" type="radio" value="21"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="POST-NET-B2C_label" for="POST-
+
+NET-B2C" align="absmiddle" class="POST-NET-B2C">
+
+                                                    <img src="pay/youzheng.gif" tppabs="/picture/youzheng.gif"
+                                                         align="absmiddle" id="POST-NET-B2C_label" for="POST-NET-B2C"
+                                                         name="POST-NET-B2C" class="POST-NET-B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="BJRCB-NET-B2C" type="radio" value="22"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="BJRCB-NET-B2C_label" for="BJRCB-NET-B2C" align="absmiddle"
+                                                       class="BJRCB-NET-B2C">
+
+                                                    <img src="pay/nongcunshangye.gif"
+                                                         tppabs="/picture/nongcunshangye.gif" align="absmiddle" id="BJRCB-NET-
+
+B2C_label" for="BJRCB-NET-B2C" name="BJRCB-NET-B2C" class="BJRCB-NET-
+
+B2C">
+
+                                                </label>
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+                                                <input name="payid" id="CZ-NET-B2C" type="radio" value="23"
+                                                       class="{required:true,messages:{required:&#39; 请选择
+
+支付方式&#39;}}">
+
+                                                <label id="CZ-NET-B2C_label" for="CZ-NET-
+
+B2C" align="absmiddle" class="CZ-NET-B2C">
+
+                                                    <img src="pay/zheshang.gif" tppabs="/picture/zheshang.gif"
+                                                         align="absmiddle" id="CZ-NET-B2C_label" for="CZ-NET-B2C"
+                                                         name="CZ-NET-B2C" class="CZ-NET-B2C">
+
+                                                </label>
+
+                                                <p>
+
+                                                    <!-- 支付列表结束 -->
+
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!--	支付宝-->
+
+                                    <!--	网银-->
+
+                                    <div>
+
+                                    </div>
+
+                                    <!--网银-->
+
+                                    <div>
+                                    </div>
+
+                                    <div>
+
+                                        <ul>
+
+                                            <!-- 网银开始 -->
+
+                                            <li style="float:left; margin-left:10px; margin-
+
+top:12px;">
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+
+                                                <p></li>
+                                            <li style="float:left; margin-left:10px; margin-top:12px;">
+
+
+                                                <p>
+
+                                                    <!-- 支付列表结束 -->
+
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+                                    <div>
+
+                                    </div>
+
+
+                                </div>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table width="100%" border="0" cellpadding="0">
+
+                        <tbody>
+                        <tr>
+
+                            <td width="40%">&nbsp;</td>
+
+                            <td width="20%" height="60" style="text-
+
+align:center"><input type="hidden" id="select_content" name="select_content">
+
+                                <a href="javascript:alert('充值服务暂未开通！')" class="btn" id="submito">提交</a></td>
+
+                            <td width="40%">&nbsp;</td>
+
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                </form>
+
+
+                <script type="text/javascript">
+
+                    var tabs = document.getElementById("tab").getElementsByTagName("li");
+
+                    var divs = document.getElementById("tab_con").getElementsByTagName("div");
+
+                    for (var i = 0; i < tabs.length; i++) {
+
+                        tabs[i].onclick = function () {
+                            change(this);
+                        }
+
+                    }
+
+                    function change(obj) {
+
+                        for (var i = 0; i < tabs.length; i++) {
+
+                            if (tabs[i] == obj) {
+
+                                tabs[i].className = "fli";
+
+                                divs[i].className = "fdiv";
+
+                            }
+
+                            else {
+
+                                tabs[i].className = "";
+
+                                divs[i].className = "";
+
+                            }
+
+                        }
+
+                    }
+
+                </script>
+
+
+                <script type="text/javascript">
+
+                    function paysumbit() {
+
+                        $('#payform').submit();
+
+                    }
+
+                    ra = document.getElementsByName('payid');
+
+                    len = ra.length;
+
+                    for (i = 0; i < len; i++) {
+
+                        ra[i].onclick = function () {
+
+                            la = document.getElementsByTagName('img');
+
+                            len2 = la.length;
+
+                            for (j = 0; j < len2; j++) {
+
+                                la[j].className = la[j].className.replace('checked', '');
+
+                            }
+
+                            var label_id = this.getAttribute('id') + '_label';
+
+                            var img_id = this.getAttribute('id');
+
+                            var label_obj = document.getElementById(label_id);
+
+                            label_obj.className += " checked";
+
+
+                        }
+
+                    }
+
+                </script>
+
+
+                <div class="wxts" id="wx" style="text-align:left; line-height:24px; margin-bottom:30px;">
+
+                    温馨提示<br>
+                    1、充值成功后，充值金额可能会需要一段时间才会出现在您的账号中，请您不要担
+                    心，这是正常现象。如果充值失败，请尝试其他充值方式。<br>
+                    2、若服务器封停的账号在封停期间对该服务器进行充值，所充金额会被直接转入通宝币，并冻结一小时，请在充值前检查是否处于封停状态，以避免一小时
+
+                    内不能使用充值而给您带来不便。<br>
+
+                    终止服务时的退还方式：<br>
+
+
+                    <br>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<div class="footer" style="width:1000px">
+    <div class="cc">
+
+        <p>Copyright © 2019 湖北喆熙网络技术有限公司 版权所有 </p>
+
+    </div>
+</div>
+
+
+</body>
+</html>
